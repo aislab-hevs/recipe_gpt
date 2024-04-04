@@ -89,5 +89,11 @@ query_templates_dict = {
         veggie, vegetarian, halal, kosher, meat-based, 
         grain-based, etc. Please answer with only one word.  
         Recipe title: {rec_title} with ingredients: {ingredients_list}
+        """,
+        "nutrition_plan": """Please give me {number} different food recipes for {type_food} between 
+    {low_calories}kcals and {high_calories}kcals per portion. For each recipe, 
+    give me the total amount of calories per portion, total portions, allergic warnings, 
+    and origin country if available.
+    {cultural_restrictions}
         """
 }
