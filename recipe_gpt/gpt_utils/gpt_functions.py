@@ -105,7 +105,8 @@ class GPTInteractionManager(object):
                     samples_to_generated=samples_to_generate,
                     model=model,
                     temperature=temperature)
-                answers[recipe] = response["choices"]
+                print(f"response size: {len(response.choices)}")
+                answers[recipe] = [response.choices[i].message.content for i in range(len(response.choices))]
             except Exception as e:
                 print(f"Exception: {e} for recipe: {recipe}")
                 answers[recipe] = ""
