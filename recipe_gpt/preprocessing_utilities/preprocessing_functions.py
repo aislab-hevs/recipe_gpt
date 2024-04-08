@@ -2,6 +2,8 @@ import re
 import numpy as np
 import pandas as pd
 from typing import Dict, List
+import glob
+import json
 
 def transform_title(text: str) -> List[str]:
     """Dive a string based on character '-'.
@@ -47,3 +49,33 @@ def extract_nutritional_numerical(raw_text:str, pattern=r'(\d+\.?\d*)') -> float
         return float(match.group(1))
     else:
         return np.nan
+    
+def remove_punctuation(text: str,punct_list: List[str]) -> str:
+    """Remove the puntuation marks in a given text.
+
+    :param text: Text to be modified. 
+    :type text: str
+    :param punct_list: List of characters to remove from the text.
+    :type punct_list: List[str]
+    :return: Modified text with characters in punt_list.
+    :rtype: str
+    """
+    for punc in punct_list:
+        if punc in text:
+            text = text.replace(punc, ' ')
+    return text.strip()
+
+def get_files(file_pattern: str):
+    list_files = glob.glob(file_pattern)
+    filtered_files = [f for f in list_files if 'failed' not in f]
+    print(f"Found files number: {len(filtered_files)}")
+    return filtered_files
+
+def load_files(list_files:List[str]) -> Dict[str, str]:
+    answer_dict = {}
+    for f in list_files:
+        with open(f) as json_file:
+            data = json.load(json_file)
+        for values in data.values():
+            answer_dict.update(values)
+    return answer_dict
