@@ -4,6 +4,7 @@ import pandas as pd
 from typing import Dict, List
 import glob
 import json
+import string
 
 def transform_title(text: str) -> List[str]:
     """Dive a string based on character '-'.
@@ -62,7 +63,7 @@ def remove_punctuation(text: str,punct_list: List[str]) -> str:
     """
     for punc in punct_list:
         if punc in text:
-            text = text.replace(punc, ' ')
+            text = text.replace(punc, '')
     return text.strip()
 
 def get_files(file_pattern: str):
@@ -79,3 +80,21 @@ def load_files(list_files:List[str]) -> Dict[str, str]:
         for values in data.values():
             answer_dict.update(values)
     return answer_dict
+
+def replace_by_key(text: str, replace_dict: Dict[str, List[str]]) -> str:
+    # preprocess text 
+    lower_text = text.lower()
+    # remove punctuation 
+    lower_text = remove_punctuation(lower_text, list(string.punctuation)+['\n'])
+    # splitter text 
+    splitted = lower_text.split(' ')
+    word_list = []
+    for word in splitted:
+        if word in replace_dict.keys():
+            word_list.append(word)
+        for key in replace_dict.keys():
+            if word in replace_dict[key]:
+                word_list.append(key)
+    if len(word_list) == 0:
+        return 'none'
+    return ', '.join(set(word_list))
