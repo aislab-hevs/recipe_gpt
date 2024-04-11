@@ -1,5 +1,7 @@
 openai
-pandas 
+numpy
+pandas
 python-dotenv
 seaborn 
-skickit-learn
+scikit-learn
+owlready2
