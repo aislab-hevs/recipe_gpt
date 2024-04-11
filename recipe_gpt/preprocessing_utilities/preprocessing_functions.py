@@ -98,3 +98,19 @@ def replace_by_key(text: str, replace_dict: Dict[str, List[str]]) -> str:
     if len(word_list) == 0:
         return 'none'
     return ', '.join(set(word_list))
+
+
+def check_pattern(text: str, pattern: str)-> bool:
+    return re.search(pattern, text) is not None
+    
+def remove_pattern(text:str, pattern: str)->str:
+    answer = re.sub(pattern, '', text)
+    return answer.strip()
+    
+def extract_pattern(text: str, pattern: str)->str:
+    match = re.search(pattern, text)
+    #print(f'match {match}')
+    if match is not None:
+        return match.group(1)
+    else:
+        return text

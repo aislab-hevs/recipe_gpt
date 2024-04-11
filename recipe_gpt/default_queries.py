@@ -95,5 +95,7 @@ query_templates_dict = {
             give me the total amount of calories per portion, total portions, allergic warnings, 
             and origin country if available.
             {cultural_restrictions}
+        """,
+        "meal_type":"""Please classify the following recipe into one of the following categories plant-based, fruit-based, grain-based, meat-based, seafood-based, dessert, beverage: {rec_title} which contains the following ingredients: {ingredients_list}. Only answer with one of the categories that one more general apply. 
         """
 }
