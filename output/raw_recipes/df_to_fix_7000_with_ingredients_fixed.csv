@@ -1,4 +1,4 @@
-|title|raw_text|cultural_restriction|calories|allergies|recipeId|ingredients|preparation|carbs|fat|fiber|protein|taste|cooking_style|meal_type|prep_time|cuisine|price|ingredients_list
+|title|raw_text|cultural_restriction|calories|allergens|recipeId|ingredients|preparation|carbs|fat|fiber|protein|taste|cooking_style|meal_type|prep_time|cuisine|price|ingredients_list
 53|Vegan Breakfast Croissant|"73. Vegan Breakfast Croissant: 350 calories per portion, 1 portion, may contain gluten (check croissant), France.
 "|vegan|350.0|NotAllergens|food_72|"ingredients:
 - 1 vegan croissant
@@ -18,7 +18,7 @@
 6. sprinkle salt and pepper over the vegetables.
 7. spread the vegan cream cheese on the top half of the croissant.
 8. place the top half of the croissant with the cream cheese on top of the vegetables.
-9. serve and enjoy your vegan breakfast croissant."|17.0|30.0|1.7|0.0|neutral|baked|vegetarian|10.0|Vegan|2.0|vegan, croissant, avocado, tomato, baby, spinach, cucumber, vegan, cream, cheese, salt, pepper, taste
+9. serve and enjoy your vegan breakfast croissant."|17.0|30.0|1.7|0.0||baked|vegetarian|10.0|Vegan|2.0|vegan, croissant, avocado, tomato, baby, spinach, cucumber, vegan, cream, cheese, salt, pepper, taste
 90|Vegan Egg McMuffin|"22. Vegan Egg McMuffin: Calories per portion: 350kcal, Total portions: 1, Allergic warnings: None, Origin: N/A
 "|vegan|350.0|NotAllergens|food_111|"ingredients:
 - english muffin
@@ -37,7 +37,7 @@
 6. next, add the cooked vegan sausage patty on top of the cheese slice.
 7. on the other side of the english muffin, place the vegan scrambled eggs or tofu scramble.
 8. carefully assemble both sides of the muffin together to form the vegan egg mcmuffin.
-9. serve warm and enjoy!"|35.0|37.0|7.0|27.0|various|sauteed|vegan|15.0|Vegan|2.0|muffin, vegan, egg, tofu, vegan, cheese, vegan, sausage, patty, vegan, mayonnaise, salt, pepper, taste
+9. serve warm and enjoy!"|35.0|37.0|7.0|27.0||sauteed|vegan|15.0|Vegan|2.0|muffin, vegan, egg, tofu, vegan, cheese, vegan, sausage, patty, vegan, mayonnaise, salt, pepper, taste
 111|Vegan Breakfast Rice Paper Rolls|"61. Vegan Breakfast Rice Paper Rolls: Calories per portion: 200kcal, Total portions: 2, Allergic warnings: None, Origin: Vietnam
 "|vegan|200.0|NotAllergens|food_133|"ingredients:
 - rice paper wrappers
@@ -64,9 +64,9 @@
 
 6. serve the vegan breakfast rice paper rolls immediately, with a side of soy sauce or tamari sauce for dipping if desired.
 
-enjoy your delicious vegan breakfast rice paper rolls!"|22.5|38.0|18.7|16.5|These ingredients have a key taste profile of fresh and crunchy.|sauteed.|veggie|30.0|Vegan|2.0|rice, wrapper, quinoa, avocado, carrot, cucumber, red, pepper, thinly, fresh, cilantro, leaf, fresh, mint, leaf, roasted, peanut, soy, sauce, tamari, sauce, dipping
+enjoy your delicious vegan breakfast rice paper rolls!"|22.5|38.0|18.7|16.5||sauteed|veggie|30.0|Vegan|2.0|rice, wrapper, quinoa, avocado, carrot, cucumber, red, pepper, thinly, fresh, cilantro, leaf, fresh, mint, leaf, roasted, peanut, soy, sauce, tamari, sauce, dipping
 453|Instant Pot Vegan Yogurt|"91. Instant Pot Vegan Yogurt: 180 calories per portion, makes 2 portions, contains nuts, originated worldwide.
-"|vegan|180.0|contains nuts|food_603|"ingredients:
+"|vegan|180.0|tree nuts|food_603|"ingredients:
 - 1 quart unsweetened soy milk
 - 2 tablespoons vegan yogurt starter or 2 vegan yogurt capsules
 - 2 tablespoons maple syrup or agave nectar (optional)
@@ -82,12 +82,12 @@ enjoy your delicious vegan breakfast rice paper rolls!"|22.5|38.0|18.7|16.5|Thes
 7. if desired, add maple syrup or agave nectar and vanilla extract for sweetness and flavor.
 8. secure the lid back on and let the yogurt sit in the instant pot on the warm setting for an additional 4-6 hours, or until desired thickness is reached.
 9. once the yogurt has thickened, transfer it to containers and refrigerate for at least 4 hours to fully set.
-10. serve chilled and enjoy your homemade instant pot vegan yogurt!"|17.24|16.0|0.0|17.24|neutral|slow-cooked|vegan|480.0|Vegan|2.0|quart, unsweetened, soy, milk, vegan, yogurt, starter, vegan, yogurt, capsule, maple, syrup, agave, nectar, vanilla, extract
+10. serve chilled and enjoy your homemade instant pot vegan yogurt!"|17.24|16.0|0.0|17.24||slow-cooked|vegan|480.0|Vegan|2.0|quart, unsweetened, soy, milk, vegan, yogurt, starter, vegan, yogurt, capsule, maple, syrup, agave, nectar, vanilla, extract
 559|Vegan Buffalo Cauliflower Tacos|"74. Vegan Buffalo Cauliflower Tacos
     Calories: 240 per portion
     Portions: 2
 
-"|vegan|240.0|Milk|food_753|"ingredients:
+"|vegan|240.0|lactose|food_753|"ingredients:
 - 1 large head cauliflower, cut into small florets
 - 1 cup all-purpose flour
 - 1 cup unsweetened almond milk
@@ -116,8 +116,8 @@ enjoy your delicious vegan breakfast rice paper rolls!"|22.5|38.0|18.7|16.5|Thes
 8. pour the hot sauce mixture over the cauliflower and toss until the florets are evenly coated.
 9. warm the corn tortillas in the oven or on the stovetop until soft and pliable.
 10. divide the buffalo cauliflower among the tortillas, then top with shredded lettuce, chopped tomatoes, chopped red onion, chopped cilantro, and vegan ranch or vegan sour cream if desired.
-11. serve the vegan buffalo cauliflower tacos immediately and enjoy!"|227.0|22.0|31.0|35.0|"The key taste profile in this recipe is ""spicy"""|Fried|NotInformation|40.0|Buffalo|2.0|head, cauliflower, floret, flour, unsweetened, almond, milk, garlic, powder, onion, powder, paprika, cayenne, pepper, salt, hot, sauce, vegan, butter, corn, tortilla, shredded, lettuce, tomato, red, onion, cilantro, vegan, ranch, vegan, sour, cream
-589|Avocado Toast |"9. Avocado Toast 
+11. serve the vegan buffalo cauliflower tacos immediately and enjoy!"|227.0|22.0|31.0|35.0||fried|NotInformation|40.0|Buffalo|2.0|head, cauliflower, floret, flour, unsweetened, almond, milk, garlic, powder, onion, powder, paprika, cayenne, pepper, salt, hot, sauce, vegan, butter, corn, tortilla, shredded, lettuce, tomato, red, onion, cilantro, vegan, ranch, vegan, sour, cream
+589|Avocado Toast|"9. Avocado Toast 
    Calories per portion: 250
    Total portions: 1
    Allergic warnings: None
@@ -141,7 +141,7 @@ ingredients:
 6. optional: top with sliced cherry tomatoes, a sprinkle of red pepper flakes, crumbled feta cheese, or herbs for added flavor and texture.
 7. serve immediately and enjoy your delicious avocado toast!
 
-note: the calorie count for avocado toast may vary based on the type of bread and additional toppings used."|51.0|31.0|16.0|11.0|creamy|Sauteed|NotInformation|10.0|American|2.0|avocado, toast, avocado, bread, whole, wheat, garlic, clove, minced, lemon, salt, pepper, taste, topping, cherry, tomato, red, pepper, flake, feta, cheese, herb, cilantro, basil
+note: the calorie count for avocado toast may vary based on the type of bread and additional toppings used."|51.0|31.0|16.0|11.0||sauteed|NotInformation|10.0|American|2.0|avocado, toast, avocado, bread, whole, wheat, garlic, clove, minced, lemon, salt, pepper, taste, topping, cherry, tomato, red, pepper, flake, feta, cheese, herb, cilantro, basil
 970|Spicy Thai Coconut Soup|"77. Spicy Thai Coconut Soup
 Calories: 400 per portion
 Portions: 2
@@ -179,7 +179,7 @@ ingredients:
 7. serve the soup hot, garnished with fresh cilantro or thai basil leaves. squeeze lime juice over each bowl before serving.
 8. if desired, serve the soup over cooked rice or noodles for a heartier meal.
 
-note: calories may vary depending on the specific brands and quantities of ingredients used."|60.0|78.0|7.2|11.0|The key taste profile in this recipe is spicy.|Sauteed|NotInformation|30.0|Thai|2.0|spicy, thai, coconut, soup, vegetable, onion, clove, garlic, minced, fresh, ginger, thai, red, curry, paste, vegetable, broth, coconut, milk, red, bell, pepper, thinly, mushroom, cremini, pea, soy, sauce, lime, brown, sugar, salt, taste, fresh, cilantro, thai, basil, garnish, lime, wedge, rice, noodle
+note: calories may vary depending on the specific brands and quantities of ingredients used."|60.0|78.0|7.2|11.0||sauteed|NotInformation|30.0|Thai|2.0|spicy, thai, coconut, soup, vegetable, onion, clove, garlic, minced, fresh, ginger, thai, red, curry, paste, vegetable, broth, coconut, milk, red, bell, pepper, thinly, mushroom, cremini, pea, soy, sauce, lime, brown, sugar, salt, taste, fresh, cilantro, thai, basil, garnish, lime, wedge, rice, noodle
 1045|Thai Red Curry with Tofu and Vegetables|"5. Thai Red Curry with Tofu and Vegetables
 Calories per portion: 450
 Total portions: 4
@@ -214,7 +214,7 @@ Origin country: Thailand
 7. squeeze in the juice of 1 lime and season with salt to taste. cook for an additional 2-3 minutes.
 8. serve the thai red curry with tofu and vegetables over cooked rice or noodles. garnish with fresh cilantro. enjoy!
  
-calories per portion: the calorie count per portion will depend on the specific brands and quantities of ingredients used. it is recommended to use a recipe calculator or nutrition app to determine the exact calorie count per serving."|92.0|118.0|15.3|32.5|Spicy|Sauteed|NotInformation|30.0|Thai|2.0|tofu, vegetable, onion, thinly, red, bell, pepper, thinly, mushroom, broccoli, floret, clove, garlic, minced, fresh, ginger, thai, red, curry, paste, coconut, milk, soy, sauce, brown, sugar, lime, salt, taste, fresh, cilantro, garnish, rice, noodle
+calories per portion: the calorie count per portion will depend on the specific brands and quantities of ingredients used. it is recommended to use a recipe calculator or nutrition app to determine the exact calorie count per serving."|92.0|118.0|15.3|32.5||sauteed|NotInformation|30.0|Thai|2.0|tofu, vegetable, onion, thinly, red, bell, pepper, thinly, mushroom, broccoli, floret, clove, garlic, minced, fresh, ginger, thai, red, curry, paste, coconut, milk, soy, sauce, brown, sugar, lime, salt, taste, fresh, cilantro, garnish, rice, noodle
 1111|Vegan Cauliflower Shawarma Wraps|"98. Vegan Cauliflower Shawarma Wraps
 Calories per portion: 550
 Total portions: 1
@@ -252,7 +252,7 @@ Origin country: Middle East
 13. repeat with the remaining tortillas and ingredients.
 14. serve the vegan cauliflower shawarma wraps immediately and enjoy!
 
-calories per portion: the calorie content will depend on the size of the tortillas and the amount of sauce used. it's recommended to check the packaging of the ingredients you use and calculate the calories accordingly."|130.0|38.0|33.0|33.0|spicy|Sauteed|NotInformation|30.0|Middle Eastern|2.0|head, cauliflower, olive, ground, cumin, ground, paprika, ground, coriander, ground, turmeric, ground, cinnamon, salt, pepper, taste, red, onion, thinly, cherry, tomato, halved, shredded, lettuce, whole, wheat, tortilla, vegan, tzatziki, sauce
+calories per portion: the calorie content will depend on the size of the tortillas and the amount of sauce used. it's recommended to check the packaging of the ingredients you use and calculate the calories accordingly."|130.0|38.0|33.0|33.0||sauteed|NotInformation|30.0|Middle Eastern|2.0|head, cauliflower, olive, ground, cumin, ground, paprika, ground, coriander, ground, turmeric, ground, cinnamon, salt, pepper, taste, red, onion, thinly, cherry, tomato, halved, shredded, lettuce, whole, wheat, tortilla, vegan, tzatziki, sauce
 1154|Vegan Roasted Cauliflower Tacos|"84. Vegan Roasted Cauliflower Tacos: 400 calories/portion, 2 portions. Allergic warnings: None. Origin: N/A.
 "|vegan|400.0|NotAllergens|food_1674|"ingredients:
 - 1 head cauliflower
@@ -281,7 +281,7 @@ calories per portion: the calorie content will depend on the size of the tortill
 6. roast in the preheated oven for 20-25 minutes, or until the cauliflower is tender and golden brown.
 7. while the cauliflower is roasting, warm the flour tortillas in a dry skillet over medium heat for about 1 minute on each side, or until they are slightly toasted.
 8. to assemble the tacos, place a spoonful of roasted cauliflower onto each tortilla. top with shredded lettuce, diced tomatoes, diced red onion, and chopped fresh cilantro.
-9. serve the tacos with lime wedges and any optional toppings, such as avocado, salsa, or vegan sour cream. enjoy!"|250.0|47.0|23.0|14.0|The key taste profile in this recipe is spicy.|baked|veggie|30.0|Vegan|2.0|head, cauliflower, olive, chili, powder, cumin, paprika, garlic, powder, onion, powder, salt, black, pepper, flour, tortilla, shredded, lettuce, tomato, red, onion, fresh, cilantro, lime, wedge, topping, avocado, salsa, vegan, sour, cream
+9. serve the tacos with lime wedges and any optional toppings, such as avocado, salsa, or vegan sour cream. enjoy!"|250.0|47.0|23.0|14.0||baked|veggie|30.0|Vegan|2.0|head, cauliflower, olive, chili, powder, cumin, paprika, garlic, powder, onion, powder, salt, black, pepper, flour, tortilla, shredded, lettuce, tomato, red, onion, fresh, cilantro, lime, wedge, topping, avocado, salsa, vegan, sour, cream
 1227|Tofu Tikka Masala|"61. Tofu Tikka Masala: 350 calories per portion, 4 portions, soy, India
 "|vegan|350.0|NotAllergens|food_1763|"ingredients:
 - 1 block of extra firm tofu
@@ -311,9 +311,9 @@ calories per portion: the calorie content will depend on the size of the tortill
 8. add the cooked tofu cubes to the pan and mix well with the tomato mixture.
 9. pour in the heavy cream and simmer on low heat for about 5 minutes, stirring occasionally.
 10. adjust salt and spices according to taste.
-11. garnish with fresh cilantro and serve hot with rice or naan bread."|48.0|144.0|1.2|56.0|spicy|sauteed|meat-based|35.0|Indian|2.0|tofu, plain, yogurt, ginger, paste, garlic, paste, tikka, masala, spice, turmeric, powder, paprika, cumin, powder, salt, taste, onion, tomato, pureed, tomato, paste, cream, fresh, cilantro, garnish
+11. garnish with fresh cilantro and serve hot with rice or naan bread."|48.0|144.0|1.2|56.0||sauteed|meat-based|35.0|Indian|2.0|tofu, plain, yogurt, ginger, paste, garlic, paste, tikka, masala, spice, turmeric, powder, paprika, cumin, powder, salt, taste, onion, tomato, pureed, tomato, paste, cream, fresh, cilantro, garnish
 1292|Vegan Mapo Tofu|"62. Vegan Mapo Tofu: 400kcals per portion, serves 4, contains gluten, soy (China)
-"|vegan|400.0|contains gluten|food_1850|"ingredients:
+"|vegan|400.0|gluten|food_1850|"ingredients:
 - 2 tablespoons vegetable oil
 - 1 medium onion, finely chopped
 - 3 cloves garlic, minced
@@ -337,7 +337,7 @@ calories per portion: the calorie content will depend on the size of the tortill
 6. in a separate small bowl, combine the cornstarch and water to make a slurry. pour the slurry into the skillet and gently stir to thicken the sauce.
 7. reduce the heat to low and simmer for 10-15 minutes, or until the tofu is heated through and the sauce has thickened to your liking.
 8. remove from heat and garnish with chopped green onions.
-9. serve the vegan mapo tofu over steamed rice or noodles. enjoy!"|60.0|48.0|5.0|19.07|spicy|sauteed|veggie|45.0|Chinese|2.0|vegetable, onion, clove, garlic, minced, ginger, sichuan, peppercorn, red, pepper, flake, spice, preference, tofu, soy, sauce, rice, vinegar, vegetable, broth, cornstarch, water, green, onion, garnish
+9. serve the vegan mapo tofu over steamed rice or noodles. enjoy!"|60.0|48.0|5.0|19.07||sauteed|veggie|45.0|Chinese|2.0|vegetable, onion, clove, garlic, minced, ginger, sichuan, peppercorn, red, pepper, flake, spice, preference, tofu, soy, sauce, rice, vinegar, vegetable, broth, cornstarch, water, green, onion, garnish
 1343|Lentil Salad with Avocado Dressing|"90. Lentil Salad with Avocado Dressing - 300 calories per portion, 4 portions, None, Various
 
 "|vegan|300.0|NotAllergens|food_1961|"ingredients:
@@ -363,9 +363,9 @@ for the avocado dressing:
 6. taste and adjust the seasoning with salt and pepper, if needed.
 7. divide the lentil salad into four portions and serve immediately.
 
-enjoy your lentil salad with avocado dressing!"|130.0|80.0|40.8|6.0|no;keyword|sauteed|veggie|25.0|Salad|2.0|lentil, red, bell, pepper, cucumber, red, onion, avocado, avocado, avocado, lemon, olive, garlic, clove, minced, salt, pepper, taste
+enjoy your lentil salad with avocado dressing!"|130.0|80.0|40.8|6.0||sauteed|veggie|25.0|Salad|2.0|lentil, red, bell, pepper, cucumber, red, onion, avocado, avocado, avocado, lemon, olive, garlic, clove, minced, salt, pepper, taste
 1621|Irish Soda Bread|"52. Irish Soda Bread: 300 calories per portion, 2 portions, contains wheat. Origin: Ireland.
-"|vegetarian|300.0|contains wheat|food_2309|"ingredients:
+"|vegetarian|300.0|wheat|food_2309|"ingredients:
 - 4 cups all-purpose flour
 - 1 teaspoon baking soda
 - 1 teaspoon salt
@@ -379,12 +379,12 @@ enjoy your lentil salad with avocado dressing!"|130.0|80.0|40.8|6.0|no;keyword|s
 5. shape the dough into a round loaf and place it on the prepared baking sheet.
 6. use a sharp knife to make a deep cross in the top of the loaf, about 1 inch deep.
 7. bake in the preheated oven for 30-35 minutes, or until the bread is golden brown and sounds hollow when tapped on the bottom.
-8. remove from the oven and cool on a wire rack before serving."|260.0|0.0|7.6|32.16|no;taste;profile.|baked|grain-based|35.0|Irish|2.0|flour, baking, soda, salt, buttermilk
+8. remove from the oven and cool on a wire rack before serving."|260.0|0.0|7.6|32.16||baked|grain-based|35.0|Irish|2.0|flour, baking, soda, salt, buttermilk
 1829|Hard-Boiled Eggs|"5. Hard-Boiled Eggs: 80 kcals per portion, 1 portion
    Allergic warnings: None
    Origin: N/A
 
-"|vegetarian|80.0|Eggs|food_2581|"ingredients:
+"|vegetarian|80.0|eggs|food_2581|"ingredients:
 - eggs
 
 "|"
@@ -399,9 +399,9 @@ enjoy your lentil salad with avocado dressing!"|130.0|80.0|40.8|6.0|no;keyword|s
 9. once the eggs are cool, gently tap them on a hard surface to crack the shell, then peel off the shell.
 10. rinse the eggs under cold water to remove any remaining shell pieces.
 11. pat the eggs dry with a paper towel.
-12. the hard-boiled eggs are now ready to be eaten or used in your desired recipe. enjoy!"|4.5|5.5|0.0|4.5|neutral|boiled|vegetarian|21.0|Eggs: breakfast|1.0|egg
+12. the hard-boiled eggs are now ready to be eaten or used in your desired recipe. enjoy!"|4.5|5.5|0.0|4.5||boiled|vegetarian|21.0|Eggs: breakfast|1.0|egg
 2046|Vegetable Frittata Muffins|"97. Vegetable Frittata Muffins:  (250 kcals per portion) - 3 portions - Allergenic Warning: Contains dairy, eggs - Origin: Global
-"|vegetarian|250.0|Milk|food_2832|"ingredients:
+"|vegetarian|250.0|lactose|food_2832|"ingredients:
 - 6 large eggs
 - 1/2 cup milk
 - salt and pepper to taste
@@ -418,7 +418,7 @@ enjoy your lentil salad with avocado dressing!"|130.0|80.0|40.8|6.0|no;keyword|s
 6. remove from the oven and allow the muffins to cool in the tin for a few minutes.
 7. use a butter knife to gently loosen the edges of the muffins from the tin, then transfer them to a wire rack to cool completely.
 8. serve the vegetable frittata muffins warm or at room temperature. they can be stored in an airtight container in the refrigerator for up to 3 days.
-9. optional: garnish with fresh herbs, such as parsley or chives, before serving."|30.0|77.0|30.5|30.0|neutral|baked|omelette|45.0|Vegetarian|1.0|egg, milk, salt, pepper, taste, vegetable, bell, pepper, onion, mushroom, shredded, cheese, cheddar, mozzarella, spray, butter, greasing, muffin, tin
+9. optional: garnish with fresh herbs, such as parsley or chives, before serving."|30.0|77.0|30.5|30.0||baked|omelette|45.0|Vegetarian|1.0|egg, milk, salt, pepper, taste, vegetable, bell, pepper, onion, mushroom, shredded, cheese, cheddar, mozzarella, spray, butter, greasing, muffin, tin
 2137|Roasted butternut squash fries with spicy mayo|"100. Roasted butternut squash fries with spicy mayo:
      Calories per portion: 280
      Total portions: 2
@@ -445,17 +445,17 @@ Please note that the provided calorie counts are estimates, and portion sizes ma
 7. while the fries are roasting, prepare the spicy mayo by mixing the mayonnaise and sriracha sauce in a small bowl until well combined. adjust the amount of sriracha to your desired level of spiciness.
 8. once the butternut squash fries are done, remove them from the oven and let them cool slightly.
 9. serve the roasted butternut squash fries warm with the spicy mayo on the side for dipping.
-10. enjoy!"|67.0|68.0|6.0|8.3|spicy|baked|vegetarian|5.0|American|2.0|butternut, olive, paprika, garlic, powder, salt, black, pepper, mayonnaise, sriracha, sauce
+10. enjoy!"|67.0|68.0|6.0|8.3||baked|vegetarian|5.0|American|2.0|butternut, olive, paprika, garlic, powder, salt, black, pepper, mayonnaise, sriracha, sauce
 2195|Cheese and Crackers|"30. Cheese and Crackers: 300 calories per portion, 1 portion, contains gluten and dairy, origin: Europe.
 
-"|vegetarian|300.0|contains gluten and dairy|food_3001|"
+"|vegetarian|300.0|dairy, gluten|food_3001|"
 Assorted cheeses (about 1-2 ounces total, depending on preference)
 6-8 crackers (depending on size and type)
     "|"
 1. start by taking your desired amount of cheese and cut it into bite-sized pieces.
 2. next, arrange the crackers on a serving platter or plate.
 3. place the pieces of cheese on top of the crackers.
-4. serve immediately and enjoy your delicious cheese and crackers!"|23.5|13.0|2.0|9.78|cheesy.|assembled|snack|0.0|Snack|2.0|cheese, cracker
+4. serve immediately and enjoy your delicious cheese and crackers!"|23.5|13.0|2.0|9.78||assembling|snack|0.0|Snack|2.0|cheese, cracker
 2357|Caprese Pasta|"21. Caprese Pasta: 550 kcal per portion, 4 portions. Origin: Italy.
 "|vegetarian|550.0|NotAllergens|food_3204|"ingredients: 
 - 8 ounces of penne pasta
@@ -472,7 +472,7 @@ Assorted cheeses (about 1-2 ounces total, depending on preference)
 3. in a small bowl, whisk together the olive oil and balsamic vinegar. season with salt and pepper to taste.
 4. add the cooked pasta to the bowl with the tomato mixture. pour the dressing over the pasta and toss gently until everything is well coated.
 5. let the pasta salad sit for about 10 minutes to allow the flavors to meld together.
-6. serve the caprese pasta at room temperature or chilled. enjoy!"|164.0|68.0|8.0|68.0|balanced|tossed|veggie|10.0|Italian|2.0|ounce, penne, pasta, cherry, tomato, halved, ounce, fresh, mozzarella, fresh, basil, leaf, virgin, olive, balsamic, vinegar, salt, pepper, taste
+6. serve the caprese pasta at room temperature or chilled. enjoy!"|164.0|68.0|8.0|68.0||tossed|veggie|10.0|Italian|2.0|ounce, penne, pasta, cherry, tomato, halved, ounce, fresh, mozzarella, fresh, basil, leaf, virgin, olive, balsamic, vinegar, salt, pepper, taste
 2439|Roasted cauliflower and chickpea tacos|"16. Roasted cauliflower and chickpea tacos: 300 kcals per portion, 3 portions, may contain gluten, Mexico.
 "|vegetarian|300.0|NotAllergens|food_3367|"ingredients:
 - 1 head cauliflower, cut into small florets
@@ -494,7 +494,7 @@ Assorted cheeses (about 1-2 ounces total, depending on preference)
 6. while the cauliflower and chickpeas are roasting, warm the tortillas in a dry skillet or over an open flame until soft and pliable.
 7. once the cauliflower and chickpeas are cooked, assemble the tacos by placing a generous amount of the roasted mixture onto each warm tortilla.
 8. add toppings of your choice, such as salsa, avocado slices, cilantro, and a squeeze of lime juice.
-9. serve immediately and enjoy your roasted cauliflower and chickpea tacos!"|168.0|16.0|6.3|65.0|spicy|baked.|veggie|55.0|Mexican|2.0|head, cauliflower, floret, chickpea, olive, cumin, chili, powder, paprika, salt, pepper, taste, flour, tortilla, topping, salsa, avocado, cilantro, lime
+9. serve immediately and enjoy your roasted cauliflower and chickpea tacos!"|168.0|16.0|6.3|65.0||baked|veggie|55.0|Mexican|2.0|head, cauliflower, floret, chickpea, olive, cumin, chili, powder, paprika, salt, pepper, taste, flour, tortilla, topping, salsa, avocado, cilantro, lime
 2500|Sweet potato and chickpea curry|"83. Sweet potato and chickpea curry: 350 kcals per portion, 3 portions, no allergic warnings, -
 "|vegetarian|350.0|NotAllergens|food_3429|"ingredients:
 - 2 tablespoons vegetable oil
@@ -522,36 +522,7 @@ Assorted cheeses (about 1-2 ounces total, depending on preference)
 4. add the cubed sweet potatoes and drained chickpeas to the pot. stir to coat them with the spices.
 5. pour in the coconut milk and vegetable broth. bring the mixture to a simmer and let it cook for about 20-25 minutes, or until the sweet potatoes are tender.
 6. taste and season with salt according to your preference.
-7. serve the sweet potato and chickpea curry over cooked rice or with naan bread. garnish with fresh cilantro. enjoy!"|67.0|66.0|20.0|24.5|"The key taste profile in this recipe is ""spicy."""|sauteed|veggie|30.0|Indian|2.0|vegetable, onion, clove, garlic, minced, ginger, ground, cumin, ground, coriander, ground, turmeric, paprika, cinnamon, cayenne, pepper, sweet, potato, ounce, chickpea, ounce, coconut, milk, vegetable, broth, salt, taste, fresh, cilantro, garnish, rice, naan, bread
-2597|Mexican Stuffed Bell Peppers|"55. Mexican Stuffed Bell Peppers - 350 calories/portion, 4 portions, Origin: Mexico
-"|vegetarian|350.0|Dairy|food_3649|"mexican stuffed bell peppers
-
-ingredients:
-- 4 large bell peppers (any color)
-- 1 cup cooked brown rice
-- 1 cup cooked black beans, drained and rinsed
-- 1 cup corn kernels
-- 1 cup diced tomatoes
-- 1 cup shredded cheddar cheese
-- 1/2 cup diced red onion
-- 1/2 cup diced green bell pepper
-- 1/4 cup chopped fresh cilantro
-- 2 cloves garlic, minced
-- 1 tablespoon olive oil
-- 1 tablespoon chili powder
-- 1 teaspoon cumin
-- salt and pepper to taste
-
-"|"
-1. preheat your oven to 375°f (190°c).
-2. cut the tops off the bell peppers and remove the seeds and membranes. arrange the peppers in a baking dish, standing upright.
-3. in a large skillet, heat the olive oil over medium heat. add minced garlic, diced onion, and diced green bell pepper. sauté for 2-3 minutes until softened.
-4. add cooked brown rice, black beans, corn kernels, diced tomatoes, chili powder, cumin, salt, and pepper to the skillet. stir well to combine all the ingredients. cook for an additional 2-3 minutes.
-5. remove the skillet from heat and stir in half of the shredded cheese and chopped cilantro.
-6. spoon the filling mixture into each bell pepper, packing it tightly. top each pepper with the remaining shredded cheese.
-7. cover the baking dish with aluminum foil and bake for 30 minutes. then, remove the foil and bake for an additional 10-15 minutes until the peppers are tender and the cheese is melted and bubbly.
-8. remove from the oven and let the stuffed peppers cool for a few minutes before serving.
-9. enjoy your delicious mexican stuffed bell peppers!"|217.0|42.0|48.0|9.0|No specific key taste profile is indicated in this recipe.|baked|meat-based|45.0|Mexican.|2.0|mexican, stuffed, bell, pepper, bell, pepper, color, brown, rice, black, bean, corn, kernel, tomato, shredded, cheddar, cheese, red, onion, green, bell, pepper, fresh, cilantro, clove, garlic, minced, olive, chili, powder, cumin, salt, pepper, taste
+7. serve the sweet potato and chickpea curry over cooked rice or with naan bread. garnish with fresh cilantro. enjoy!"|67.0|66.0|20.0|24.5||sauteed|veggie|30.0|Indian|2.0|vegetable, onion, clove, garlic, minced, ginger, ground, cumin, ground, coriander, ground, turmeric, paprika, cinnamon, cayenne, pepper, sweet, potato, ounce, chickpea, ounce, coconut, milk, vegetable, broth, salt, taste, fresh, cilantro, garnish, rice, naan, bread
 2653|Thai Red Curry with Vegetables|"61. Thai Red Curry with Vegetables
 Calories per portion: 500
 Total portions: 4
@@ -579,9 +550,9 @@ Origin: Thailand
 6. remove from heat and stir in the fresh basil leaves.
 7. serve the thai red curry with vegetables over rice or noodles. enjoy!
 
-calories per portion: the number of calories per portion will vary based on the specific ingredients and measurements used. please calculate the calories based on the brands and quantities you choose to use."|60.0|64.0|5.0|4.88|Spicy|sauteed|vegetarian|65.0|Thai|2.0|coconut, milk, thai, red, curry, paste, vegetable, bell, pepper, broccoli, carrot, tofu, soy, sauce, brown, sugar, lime, vegetable, fresh, basil, leaf, rice, noodle
+calories per portion: the number of calories per portion will vary based on the specific ingredients and measurements used. please calculate the calories based on the brands and quantities you choose to use."|60.0|64.0|5.0|4.88||sauteed|vegetarian|65.0|Thai|2.0|coconut, milk, thai, red, curry, paste, vegetable, bell, pepper, broccoli, carrot, tofu, soy, sauce, brown, sugar, lime, vegetable, fresh, basil, leaf, rice, noodle
 2738|Mediterranean Roasted Vegetable Quiche|"81. Mediterranean Roasted Vegetable Quiche - 450 calories/portion, 4 portions, contains gluten and dairy (Various)
-"|vegetarian|450.0|contains gluten and dairy (Various)|food_3961|"ingredients:
+"|vegetarian|450.0|dairy, gluten|food_3961|"ingredients:
 - 1 pre-made pie crust (store-bought or homemade)
 - 1 red bell pepper, sliced
 - 1 yellow bell pepper, sliced
@@ -609,9 +580,9 @@ calories per portion: the number of calories per portion will vary based on the 
 8. pour the egg mixture over the vegetables, making sure it is evenly distributed.
 9. bake the quiche in the preheated oven for about 30-35 minutes or until the center is set and the top is golden brown.
 10. remove from the oven and let it cool for a few minutes before slicing. garnish with fresh basil leaves.
-11. serve the mediterranean roasted vegetable quiche warm or at room temperature for a delicious lunch or dinner option. enjoy!"|75.0|30.0|1.2|53.0|tasty|baked|vegetarian|120.0|Mediterranean|2.0|pie, crust, red, bell, pepper, yellow, bell, pepper, eggplant, zucchini, red, onion, thinly, clove, garlic, minced, olive, dried, oregano, dried, basil, salt, black, pepper, taste, egg, milk, dairy, dairy, feta, cheese, cheese, fresh, basil, leaf, garnish
+11. serve the mediterranean roasted vegetable quiche warm or at room temperature for a delicious lunch or dinner option. enjoy!"|75.0|30.0|1.2|53.0||baked|vegetarian|120.0|Mediterranean|2.0|pie, crust, red, bell, pepper, yellow, bell, pepper, eggplant, zucchini, red, onion, thinly, clove, garlic, minced, olive, dried, oregano, dried, basil, salt, black, pepper, taste, egg, milk, dairy, dairy, feta, cheese, cheese, fresh, basil, leaf, garnish
 2864|Pancake cereal|"53. Pancake cereal - 500 calories per portion, 2 portions, contains gluten and dairy, origin: United States
-"|halal|500.0|contains gluten and dairy|food_4137|": unknown. 
+"|halal|500.0|dairy, gluten|food_4137|": unknown. 
 
 ingredients:
 - 1 cup all-purpose flour
@@ -634,10 +605,10 @@ ingredients:
 8. flip the mini pancakes using a spatula and cook for an additional 1-2 minutes, or until golden brown and cooked through.
 9. transfer the cooked pancake cereal to a plate and repeat the process with the remaining batter, greasing the skillet as needed.
 10. serve the pancake cereal warm with your choice of toppings such as maple syrup, chocolate sauce, fresh fruits, or whipped cream.
-11. enjoy your homemade pancake cereal!"|104.0|3.5|2.4|25.0|neutral|sauteed|grain-based|20.0|American|2.0|flour, sugar, baking, powder, salt, milk, dairy, dairy, egg, butter, dairy, dairy, spray, butter, greasing
+11. enjoy your homemade pancake cereal!"|104.0|3.5|2.4|25.0||sauteed|grain-based|20.0|American|2.0|flour, sugar, baking, powder, salt, milk, dairy, dairy, egg, butter, dairy, dairy, spray, butter, greasing
 2871|Indian poha cutlet|"60. Indian poha cutlet - 300 calories per portion, 2 portions, contains gluten, origin: India
 
-"|halal|300.0|contains gluten|food_4144|"indian poha cutlet - 300 calories per portion; 2 portions; contains gluten; origin: india
+"|halal|300.0|gluten|food_4144|"indian poha cutlet - 300 calories per portion; 2 portions; contains gluten; origin: india
 
 ingredients:
 - 1 cup poha (flattened rice)
@@ -661,10 +632,10 @@ ingredients:
 7. once done, remove the cutlets from the pan and drain excess oil on a kitchen towel.
 8. serve the hot poha cutlets with mint chutney or tomato ketchup.
 
-enjoy your delicious indian poha cutlet!"|50.0|22.0|5.0|6.5|spicy|fried|vegetarian|15.0|Indian|2.0|indian, poha, cutlet, calorie, portion, gluten, origin, india, poha, flattened, rice, potato, boiled, onion, green, chilies, turmeric, powder, red, chili, powder, garam, masala, salt, taste, corn, flour, shallow
+enjoy your delicious indian poha cutlet!"|50.0|22.0|5.0|6.5||fried|vegetarian|15.0|Indian|2.0|indian, poha, cutlet, calorie, portion, gluten, origin, india, poha, flattened, rice, potato, boiled, onion, green, chilies, turmeric, powder, red, chili, powder, garam, masala, salt, taste, corn, flour, shallow
 2881|Venezuelan arepas with cheese and avocado|"70. Venezuelan arepas with cheese and avocado - 400 calories per portion, 1 portion, contains gluten and dairy, origin: Venezuela
 
-"|halal|400.0|contains gluten and dairy|food_4154|"venezuelan arepas with cheese and avocado:
+"|halal|400.0|dairy, gluten|food_4154|"venezuelan arepas with cheese and avocado:
 
 ingredients:
 - 1 cup pre-cooked cornmeal (masarepa)
@@ -682,14 +653,14 @@ ingredients:
 4. heat a non-stick skillet or griddle over medium heat. place the arepas on the skillet and cook for about 5 minutes on each side, or until they develop a golden crust.
 5. once cooked, carefully cut a slit horizontally into each arepa, creating a pocket for the filling.
 6. stuff each arepa with grated cheese and avocado slices. season with salt and pepper to taste.
-7. serve warm and enjoy the delicious venezuelan arepas with cheese and avocado."|5.0|29.0|6.0|5.0|cheesy|sauteed|vegetarian|10.0|Venezuelan|2.0|venezuelan, arepas, cheese, avocado, cornmeal, masarepa, water, salt, vegetable, cheese, queso, fresco, mozzarella, avocado, salt, pepper, taste
+7. serve warm and enjoy the delicious venezuelan arepas with cheese and avocado."|5.0|29.0|6.0|5.0||sauteed|vegetarian|10.0|Venezuelan|2.0|venezuelan, arepas, cheese, avocado, cornmeal, masarepa, water, salt, vegetable, cheese, queso, fresco, mozzarella, avocado, salt, pepper, taste
 2926|Vegetable and Cheese Muffin Frittatas|"20. Vegetable and Cheese Muffin Frittatas
     Calories per portion: 200 kcal
     Total portions: 6
     Allergic warnings: Dairy, Gluten
     Origin: N/A
 
-"|halal|200.0|Milk|food_4204|"ingredients:
+"|halal|200.0|lactose|food_4204|"ingredients:
 - 1/2 cup bell peppers, diced
 - 1/2 cup zucchini, diced
 - 1/2 cup spinach, chopped
@@ -710,14 +681,14 @@ ingredients:
 7. allow them to cool slightly before removing from the muffin tin.
 8. serve warm or at room temperature. enjoy!
 
-calories per portion: this depends on the size of your muffin tins, but an average estimate would be around 150-200 calories per frittata."|15.0|43.0|2.0|30.0|No answer provided|Baked|NotInformation|25.0|Vegetarian|2.0|bell, pepper, zucchini, spinach, red, onion, cheddar, cheese, egg, milk, salt, black, pepper
+calories per portion: this depends on the size of your muffin tins, but an average estimate would be around 150-200 calories per frittata."|15.0|43.0|2.0|30.0||baked|NotInformation|25.0|Vegetarian|2.0|bell, pepper, zucchini, spinach, red, onion, cheddar, cheese, egg, milk, salt, black, pepper
 2950|Lebanese Kaak (Sesame Bread Rings)|"47. Lebanese Kaak (Sesame Bread Rings)
     Calories per portion: 200 kcal
     Total portions: 10
     Allergic warnings: Gluten, Sesame
     Origin: Lebanon
 
-"|halal|200.0|Sesame|food_4231|"ingredients:
+"|halal|200.0|sesame|food_4231|"ingredients:
 - 500g all-purpose flour
 - 1 tsp instant yeast
 - 1 tsp sugar
@@ -742,7 +713,7 @@ calories per portion: this depends on the size of your muffin tins, but an avera
 13. remove from the oven and let them cool on a wire rack.
 14. lebanese kaak is ready to be enjoyed!
 
-calories per portion: the calorie count would depend on the size of each kaak and the amount of oil used for brushing. it is recommended to use a calorie tracking app or website to calculate the exact calories per portion based on the actual ingredients and quantities used."|380.0|60.0|12.5|53.24|neutral|Baked|NotInformation|90.0|Lebanese|2.0|flour, yeast, sugar, salt, water, vegetable, sesame, seed, coating
+calories per portion: the calorie count would depend on the size of each kaak and the amount of oil used for brushing. it is recommended to use a calorie tracking app or website to calculate the exact calories per portion based on the actual ingredients and quantities used."|380.0|60.0|12.5|53.24||baked|NotInformation|90.0|Lebanese|2.0|flour, yeast, sugar, salt, water, vegetable, sesame, seed, coating
 2979|Moroccan Baghrir (Thousand|"82. Moroccan Baghrir (Thousand-Hole Pancakes)
     Calories per portion: 300 kcal
     Total portions: 6
@@ -773,7 +744,7 @@ calories per portion: the calorie count would depend on the size of each kaak an
 11. serve the baghrir warm with a drizzle of honey, maple syrup, or your favorite topping.
 12. enjoy your delicious moroccan baghrir!
 
-note: the calorie count per portion of moroccan baghrir will vary based on the size and thickness of the pancakes, the amount of oil used for cooking, and the toppings added. it is recommended to calculate the calorie content based on the specific quantities and ingredients used in your preparation."|15.0|34.0|0.0|7.0|neutral|"the cooking style of this recipe is ""pan-fried""."|grain-based|30.0|Moroccan|2.0|semolina, flour, yeast, sugar, salt, water, baking, powder, olive
+note: the calorie count per portion of moroccan baghrir will vary based on the size and thickness of the pancakes, the amount of oil used for cooking, and the toppings added. it is recommended to calculate the calorie content based on the specific quantities and ingredients used in your preparation."|15.0|34.0|0.0|7.0||fried|grain-based|30.0|Moroccan|2.0|semolina, flour, yeast, sugar, salt, water, baking, powder, olive
 3013|Turkish Gözleme|"34. Turkish Gözleme
     Calories: 350 per portion
     Servings: 4
@@ -797,14 +768,14 @@ Filling options (such as spinach and feta cheese, minced meat and onions, or pot
 8. repeat the process for the remaining dough balls and filling.
 9. cut the cooked gözlemes into wedges or squares and serve hot.
 
-note: you can customize the filling according to your preference. enjoy your homemade turkish gözleme!"|198.0|14.0|4.8|27.0|neutral|Grilled|NotInformation|30.0|Turkish|1.0|value, calorie, flour, salt, water, olive, filling, option, spinach, feta, cheese, potato, cheese, minced, meat, vegetable, olive, butter, brushing
+note: you can customize the filling according to your preference. enjoy your homemade turkish gözleme!"|198.0|14.0|4.8|27.0||grilled|NotInformation|30.0|Turkish|1.0|value, calorie, flour, salt, water, olive, filling, option, spinach, feta, cheese, potato, cheese, minced, meat, vegetable, olive, butter, brushing
 3032|Moroccan Semolina Pancakes (Baghrir)|"68. Moroccan Semolina Pancakes (Baghrir)
     Calories: 250 per portion
     Servings: 4
     Allergic Warnings: Gluten
     Origin Country: Morocco
 
-"|halal|250.0|Wheat|food_4352|"ingredients:
+"|halal|250.0|wheat|food_4352|"ingredients:
 - 2 cups semolina
 - 1 cup all-purpose flour
 - 1 tbsp active dry yeast
@@ -828,7 +799,7 @@ note: you can customize the filling according to your preference. enjoy your hom
 11. serve the baghrir pancakes warm with your choice of toppings such as honey, melted butter, or jam.
 
 calories:
-calories may vary depending on the serving size and the toppings used."|373.0|15.0|5.0|40.0|Neutral|Fried|NotInformation|30.0|Moroccan|2.0|semolina, flour, yeast, sugar, salt, water, baking, powder, butter, greasing
+calories may vary depending on the serving size and the toppings used."|373.0|15.0|5.0|40.0||fried|NotInformation|30.0|Moroccan|2.0|semolina, flour, yeast, sugar, salt, water, baking, powder, butter, greasing
 3279|Moroccan Chickpea Flatbread|"80. Moroccan Chickpea Flatbread: Total calories per portion - 200kcal, Total portions - 1, Allergic warnings - Gluten, Origin - Morocco
 
 "|halal|200.0|NotAllergens|food_4617|"ingredients for moroccan chickpea flatbread:
@@ -857,9 +828,9 @@ calories may vary depending on the serving size and the toppings used."|373.0|15
 9. once cooked, transfer the flatbreads to a cutting board and cut into wedges or squares.
 10. serve warm and enjoy the moroccan chickpea flatbread with your favorite dips or spreads.
 
-note: you can also customize the recipe by adding chopped vegetables or herbs to the batter before cooking."|216.0|10.7|8.7|3.5|spicy|sauteed.|vegan|30.0|Moroccan|2.0|chickpea, flour, salt, ground, cumin, paprika, ground, coriander, ground, turmeric, water, olive, onion, clove, garlic, minced, fresh, parsley, olive, spray, greasing
+note: you can also customize the recipe by adding chopped vegetables or herbs to the batter before cooking."|216.0|10.7|8.7|3.5||sauteed|vegan|30.0|Moroccan|2.0|chickpea, flour, salt, ground, cumin, paprika, ground, coriander, ground, turmeric, water, olive, onion, clove, garlic, minced, fresh, parsley, olive, spray, greasing
 3280|Turkish Style Fried Dough|"81. Turkish Style Fried Dough: Total calories per portion - 250kcal, Total portions - 1, Allergic warnings - None, Origin - Turkey
-"|halal|250.0|Wheat|food_4618|"ingredients:
+"|halal|250.0|wheat|food_4618|"ingredients:
 - 2 cups all-purpose flour
 - 1 teaspoon baking powder
 - 1/2 teaspoon salt
@@ -878,12 +849,12 @@ note: you can also customize the recipe by adding chopped vegetables or herbs to
 7. fill a deep frying pan with vegetable oil about 2 inches deep and heat it over medium heat. 
 8. carefully place the dough circles into the hot oil one or two at a time, and fry until golden brown and puffed up. 
 9. remove the fried dough from the oil and drain on paper towels to remove excess oil. 
-10. serve warm as a snack or appetizer. optionally, you can sprinkle powdered sugar or drizzle honey on top before serving."|220.0|38.0|3.2|28.5|none|fried|grain-based|30.0|Turkish|2.0|flour, baking, powder, salt, butter, plain, yogurt, water, vegetable
+10. serve warm as a snack or appetizer. optionally, you can sprinkle powdered sugar or drizzle honey on top before serving."|220.0|38.0|3.2|28.5||fried|grain-based|30.0|Turkish|2.0|flour, baking, powder, salt, butter, plain, yogurt, water, vegetable
 3344|Ham and Cheese Pinwheels|"82. Ham and Cheese Pinwheels - 200kcals per portion, 1 portion
     Origin: International
     Allergic Warnings: Dairy, Wheat
 
-"|halal|200.0|Milk|food_4714|": unknown
+"|halal|200.0|lactose|food_4714|": unknown
     
 ingredients: 
 - 1 sheet of puff pastry
@@ -901,9 +872,9 @@ ingredients:
 7. place the pinwheels on the prepared baking sheet, spacing them apart.
 8. brush the tops of the pinwheels with the beaten egg, ensuring they are evenly coated.
 9. bake in the preheated oven for approximately 15-20 minutes, or until the pinwheels are golden brown and crispy.
-10. remove from the oven and allow to cool slightly before serving. enjoy your delicious ham and cheese pinwheels!"|70.0|75.0|0.0|66.0|unknown|baked|meat-based|35.0|Appetizer|2.0|puff, pastry, ham, cheese, egg
+10. remove from the oven and allow to cool slightly before serving. enjoy your delicious ham and cheese pinwheels!"|70.0|75.0|0.0|66.0||baked|meat-based|35.0|Appetizer|2.0|puff, pastry, ham, cheese, egg
 3382|Vietnamese Fresh Spring Rolls|"55. Vietnamese Fresh Spring Rolls - Approx. 150 kcals per portion - Total Portions: 1 - Origin: Vietnam
-"|halal|150.0|Shellfish|food_4787|"ingredients:
+"|halal|150.0|shellfish|food_4787|"ingredients:
 - 8 rice paper wrappers
 - 1 cup cooked rice noodles
 - 1 cup julienned carrots
@@ -924,9 +895,9 @@ ingredients:
 5. top with a small handful of carrots, cucumbers, bell peppers, cilantro, mint, basil, shrimp, and chicken (if using).
 6. fold the sides of the wrapper over the filling and then roll up tightly from the bottom, making sure the filling stays compact.
 7. repeat with the remaining ingredients.
-8. serve the spring rolls with hoisin sauce or peanut sauce for dipping. enjoy!"|29.0|40.0|6.0|29.0|fresh|sauteed.|veggie|50.0|Vietnamese|2.0|rice, wrapper, rice, noodle, carrot, cucumber, thinly, red, bell, pepper, fresh, cilantro, leaf, fresh, mint, leaf, fresh, basil, leaf, shrimp, deveined, chicken, hoisin, sauce, peanut, sauce, dipping
+8. serve the spring rolls with hoisin sauce or peanut sauce for dipping. enjoy!"|29.0|40.0|6.0|29.0||sauteed|veggie|50.0|Vietnamese|2.0|rice, wrapper, rice, noodle, carrot, cucumber, thinly, red, bell, pepper, fresh, cilantro, leaf, fresh, mint, leaf, fresh, basil, leaf, shrimp, deveined, chicken, hoisin, sauce, peanut, sauce, dipping
 3649|Spiced Roasted Almonds|"17. Spiced Roasted Almonds: 120 kcal per portion, 6 portions, contains nuts, origin: Unknown.
-"|halal|120.0|contains nuts|food_5119|"ingredients:
+"|halal|120.0|tree nuts|food_5119|"ingredients:
 - 2 cups almonds
 - 1 tablespoon olive oil
 - 1 teaspoon ground cumin
@@ -944,9 +915,9 @@ ingredients:
 5. remove the almonds from the oven and let them cool completely. they will become crunchier as they cool.
 6. if desired, drizzle the roasted almonds with honey and toss gently to coat. this will add a touch of sweetness to the spiced nuts.
 7. let the almonds rest for a few more minutes until the honey sets, then transfer to an airtight container for storage.
-8. enjoy as a snack or use as a topping for salads, yogurt, or desserts."|55.0|53.0|0.0|2.5|spicy|baked|veggie|25.0|Spiced Roasted Almonds - Middle Eastern|1.0|almond, olive, ground, cumin, paprika, ground, cinnamon, salt, cayenne, pepper, honey
+8. enjoy as a snack or use as a topping for salads, yogurt, or desserts."|55.0|53.0|0.0|2.5||baked|veggie|25.0|Spiced Roasted Almonds - Middle Eastern|1.0|almond, olive, ground, cumin, paprika, ground, cinnamon, salt, cayenne, pepper, honey
 3668|Turkish Pide Bread|"56. Turkish Pide Bread: 180 kcal per portion, 5 portions, contains gluten, origin: Turkey.
-"|halal|180.0|contains gluten|food_5142|"ingredients:
+"|halal|180.0|gluten|food_5142|"ingredients:
 - 4 cups all-purpose flour
 - 2 teaspoons instant yeast
 - 1 teaspoon sugar
@@ -967,9 +938,9 @@ ingredients:
 9. bake in the preheated oven for 12-15 minutes or until the bread turns golden brown.
 10. remove from the oven and let the bread cool on a wire rack. serve warm or at room temperature.
 
-enjoy your homemade turkish pide bread!"|456.0|25.0|25.85|11.23|neutral|baked|grain-based|105.0|Turkish|2.0|flour, yeast, sugar, salt, water, olive, yogurt
+enjoy your homemade turkish pide bread!"|456.0|25.0|25.85|11.23||baked|grain-based|105.0|Turkish|2.0|flour, yeast, sugar, salt, water, olive, yogurt
 3683|Spicy Roasted Chickpea Salad|"84. Spicy Roasted Chickpea Salad: 110 kcal per portion, 4 portions, contains legumes, origin: Unknown.
-"|halal|110.0|contains legumes|food_5163|"ingredients:
+"|halal|110.0|legumes|food_5163|"ingredients:
 - 1 can of chickpeas, drained and rinsed
 - 1 tablespoon olive oil
 - 1 teaspoon smoked paprika
@@ -992,9 +963,9 @@ enjoy your homemade turkish pide bread!"|456.0|25.0|25.85|11.23|neutral|baked|gr
 7. add the roasted chickpeas to the salad bowl and gently toss everything together.
 8. sprinkle the crumbled feta cheese over the salad.
 9. garnish with fresh parsley.
-10. serve the spicy roasted chickpea salad immediately and enjoy!"|70.0|35.3|7.4|44.0|smoky|baked|veggie|75.0|Spicy Roasted Chickpea Salad is a Mediterranean cuisine.|1.0|chickpea, olive, smoked, paprika, cayenne, pepper, salt, pepper, taste, salad, green, cucumber, red, bell, pepper, red, onion, thinly, feta, cheese, fresh, parsley, garnish
+10. serve the spicy roasted chickpea salad immediately and enjoy!"|70.0|35.3|7.4|44.0||baked|veggie|75.0|Spicy Roasted Chickpea Salad is a Mediterranean cuisine.|1.0|chickpea, olive, smoked, paprika, cayenne, pepper, salt, pepper, taste, salad, green, cucumber, red, bell, pepper, red, onion, thinly, feta, cheese, fresh, parsley, garnish
 3983|Indian Chicken Tikka Masala|"36. Indian Chicken Tikka Masala: 450 calories per portion, 2 portions, contains dairy (origin: India)
-"|halal|450.0|contains dairy (origin: India)|food_5582|"ingredients:
+"|halal|450.0|dairy|food_5582|"ingredients:
 - 500 grams chicken breast, cut into bite-sized pieces
 - 1 cup plain yogurt
 - 3 tablespoons tikka masala paste
@@ -1027,38 +998,9 @@ enjoy your homemade turkish pide bread!"|456.0|25.0|25.85|11.23|neutral|baked|gr
 
 7. once cooked, remove from heat and garnish with freshly chopped cilantro.
 
-8. serve the chicken tikka masala with steamed basmati rice or naan bread. enjoy!"|77.0|95.0|12.0|20.4|"The key taste profile in this recipe is:
-- Spicy (due to tikka masala paste and spices)"|sauteed|meat-based|60.0|Indian|2.0|gram, chicken, breast, piece, plain, yogurt, tikka, masala, paste, vegetable, onion, clove, garlic, minced, ginger, tomato, paste, tomato, puree, cream, garam, masala, ground, cumin, ground, coriander, turmeric, powder, salt, taste, fresh, cilantro, garnish
-3992|Indian Aloo Gobi|"52. Indian Aloo Gobi: 300 calories per portion, 3 portions, vegan (origin: India)
-"|halal|300.0|NotAllergens|food_5591|"ingredients:
-- 2 medium-sized potatoes, peeled and cubed
-- 1 small cauliflower, cut into florets
-- 2 tablespoons vegetable oil
-- 1 teaspoon cumin seeds
-- 1 onion, finely chopped
-- 2 tomatoes, finely chopped
-- 2 teaspoons ginger-garlic paste
-- 1 teaspoon turmeric powder
-- 1 teaspoon red chili powder
-- 1 teaspoon garam masala
-- salt, to taste
-- fresh coriander leaves, for garnish
-
-"|"
-1. heat oil in a large pan over medium heat.
-2. add cumin seeds and let them sizzle for a few seconds.
-3. add the chopped onion and sauté until golden brown.
-4. stir in the ginger-garlic paste and cook for another minute.
-5. add the chopped tomatoes and cook until they soften.
-6. add turmeric powder, red chili powder, and salt. mix well.
-7. add the cubed potatoes and cauliflower florets. mix until the vegetables are coated with spices.
-8. cover the pan and let the vegetables cook on low heat for about 15-20 minutes, or until they are tender.
-9. stir occasionally to prevent sticking or burning.
-10. sprinkle garam masala over the cooked aloo gobi and give it a quick mix.
-11. garnish with fresh coriander leaves.
-12. serve hot with rice or naan bread. enjoy!"|17.0|14.0|16.0|5.8|spicy|sauteed|veggie|45.0|Indian|2.0|potato, cauliflower, floret, vegetable, cumin, seed, onion, tomato, ginger, garlic, paste, turmeric, powder, red, chili, powder, garam, masala, salt, taste, fresh, coriander, leaf, garnish
+8. serve the chicken tikka masala with steamed basmati rice or naan bread. enjoy!"|77.0|95.0|12.0|20.4||sauteed|meat-based|60.0|Indian|2.0|gram, chicken, breast, piece, plain, yogurt, tikka, masala, paste, vegetable, onion, clove, garlic, minced, ginger, tomato, paste, tomato, puree, cream, garam, masala, ground, cumin, ground, coriander, turmeric, powder, salt, taste, fresh, cilantro, garnish
 4010|Mexican Chicken Quesadilla|"82. Mexican Chicken Quesadilla: 350 calories per portion, 2 portions, contains gluten (origin: Mexico)
-"|halal|350.0|contains gluten (origin: Mexico)|food_5609|"ingredients:
+"|halal|350.0|gluten|food_5609|"ingredients:
 - 2 boneless, skinless chicken breasts
 - 1 teaspoon chili powder
 - 1 teaspoon cumin
@@ -1081,7 +1023,7 @@ enjoy your homemade turkish pide bread!"|456.0|25.0|25.85|11.23|neutral|baked|gr
 5. lay a tortilla flat and sprinkle a quarter of the shredded cheese on one side. top with a quarter of the cooked vegetables and a quarter of the sliced chicken. fold the tortilla in half to enclose the filling.
 6. place the quesadilla in the skillet over medium heat. cook until the tortilla is crispy and golden brown on one side, then flip and cook the other side until crispy and the cheese has melted.
 7. repeat steps 5-6 with the remaining tortillas and filling ingredients.
-8. slice the cooked quesadillas into wedges and serve with salsa, guacamole, and sour cream on the side. enjoy!"|51.0|70.0|15.0|9.4|The key taste profile in this recipe is spicy (from the chili powder, cumin, and jalapeno pepper).|sauteed|meat-based|30.0|Mexican|2.0|boneless, skinless, chicken, breast, chili, powder, cumin, paprika, salt, pepper, taste, olive, onion, red, bell, pepper, green, bell, pepper, jalapeno, pepper, minced, tortilla, flour, corn, shredded, mexican, cheese, blend, salsa, guacamole, sour, cream
+8. slice the cooked quesadillas into wedges and serve with salsa, guacamole, and sour cream on the side. enjoy!"|51.0|70.0|15.0|9.4||sauteed|meat-based|30.0|Mexican|2.0|boneless, skinless, chicken, breast, chili, powder, cumin, paprika, salt, pepper, taste, olive, onion, red, bell, pepper, green, bell, pepper, jalapeno, pepper, minced, tortilla, flour, corn, shredded, mexican, cheese, blend, salsa, guacamole, sour, cream
 4055|Tandoori Chicken Skewers|"49. Tandoori Chicken Skewers
 Calories per portion: 300kcal
 Total portions: 4
@@ -1112,7 +1054,7 @@ Total portions: 4
 7. remove the skewers from the grill and let them rest for a few minutes before serving.
 8. serve the tandoori chicken skewers garnished with fresh cilantro, if desired, and with lemon wedges on the side for squeezing over. enjoy!
 
-calories per portion may vary based on the specific brands and quantities of ingredients used. it's recommended to calculate the calories based on the specific products you use and portion size."|20.0|32.0|2.5|121.0|spicy|grilled|meat-based|120.0|Indian|2.0|chicken, breast, cube, plain, yogurt, tandoori, masala, powder, ground, cumin, ground, coriander, paprika, turmeric, powder, lemon, vegetable, clove, garlic, minced, ginger, salt, taste, fresh, cilantro, garnish, lemon, wedge
+calories per portion may vary based on the specific brands and quantities of ingredients used. it's recommended to calculate the calories based on the specific products you use and portion size."|20.0|32.0|2.5|121.0||grilled|meat-based|120.0|Indian|2.0|chicken, breast, cube, plain, yogurt, tandoori, masala, powder, ground, cumin, ground, coriander, paprika, turmeric, powder, lemon, vegetable, clove, garlic, minced, ginger, salt, taste, fresh, cilantro, garnish, lemon, wedge
 4063|Chicken Tacos|"61. Chicken Tacos
 Calories per portion: 450kcal
 Total portions: 2
@@ -1140,9 +1082,9 @@ Allergic warnings: Contains gluten and dairy
 9. add your desired toppings, such as shredded lettuce, diced tomatoes, sliced avocado, sour cream, and shredded cheese.
 10. serve immediately and enjoy!
 
-calories per portion: the number of calories will vary depending on the specific brands and quantities of ingredients used, as well as the size of the tortillas and the amount of toppings."|140.0|34.0|12.0|88.0|spicy|grilled|meat-based|30.0|Mexican|2.0|boneless, skinless, chicken, breast, olive, chili, powder, cumin, paprika, salt, pepper, taste, corn, flour, tortilla, taco, topping, shredded, lettuce, tomato, avocado, sour, cream, shredded, cheese
+calories per portion: the number of calories will vary depending on the specific brands and quantities of ingredients used, as well as the size of the tortillas and the amount of toppings."|140.0|34.0|12.0|88.0||grilled|meat-based|30.0|Mexican|2.0|boneless, skinless, chicken, breast, olive, chili, powder, cumin, paprika, salt, pepper, taste, corn, flour, tortilla, taco, topping, shredded, lettuce, tomato, avocado, sour, cream, shredded, cheese
 4099|Spanish Tortilla (Potato Omelette)|"25. Spanish Tortilla (Potato Omelette): 400 calories per portion, 4 portions, contains eggs, origin: Spain
-"|halal|400.0|contains eggs|food_5713|"ingredients:
+"|halal|400.0|eggs|food_5713|"ingredients:
 - 4 medium potatoes
 - 1 onion
 - 6 large eggs
@@ -1163,7 +1105,7 @@ calories per portion: the number of calories will vary depending on the specific
 11. flip the tortilla by placing a plate over the pan and flipping it carefully. then slide the uncooked side of the tortilla back into the pan.
 12. cook for another 5-7 minutes until the other side is set and golden.
 13. remove the tortilla from the heat and let it rest for a few minutes before cutting into slices.
-14. serve warm or at room temperature and enjoy your spanish tortilla!"|69.0|42.0|9.0|69.0|no;taste;profile;specified.|fried|vegetarian|70.0|Spanish|2.0|potato, onion, egg, salt, taste, olive
+14. serve warm or at room temperature and enjoy your spanish tortilla!"|69.0|42.0|9.0|69.0||fried|vegetarian|70.0|Spanish|2.0|potato, onion, egg, salt, taste, olive
 4104|Lebanese Kafta Kebabs|"38. Lebanese Kafta Kebabs: 450 calories per portion, 4 portions, origin: Lebanon
 "|halal|450.0|NotAllergens|food_5719|"ingredients:
 - 1 lb ground beef
@@ -1183,7 +1125,7 @@ calories per portion: the number of calories will vary depending on the specific
 2. take a handful of the mixture and shape it into a kebab shape, about 4 inches long and 1 inch wide. repeat with the remaining mixture.
 3. preheat a grill or grill pan over medium-high heat. brush the kebabs with olive oil on all sides.
 4. place the kebabs onto the preheated grill or grill pan and cook for about 4-5 minutes per side, or until they are browned and cooked through.
-5. serve the lebanese kafta kebabs hot with pita bread, tahini sauce, and your choice of salad or vegetables. enjoy!"|30.0|20.0|2.0|4.5|spicy|grilled|meat-based|20.0|Lebanese|2.0|ground, beef, onion, clove, garlic, minced, fresh, parsley, ground, coriander, ground, cumin, paprika, ground, cinnamon, cayenne, pepper, salt, pepper, taste, olive, brushing
+5. serve the lebanese kafta kebabs hot with pita bread, tahini sauce, and your choice of salad or vegetables. enjoy!"|30.0|20.0|2.0|4.5||grilled|meat-based|20.0|Lebanese|2.0|ground, beef, onion, clove, garlic, minced, fresh, parsley, ground, coriander, ground, cumin, paprika, ground, cinnamon, cayenne, pepper, salt, pepper, taste, olive, brushing
 4160|Lentil and chickpea curry with naan bread|"36. Lentil and chickpea curry with naan bread
 - Calories: 300 per portion
 - Total portions: 4
@@ -1219,9 +1161,9 @@ calories per portion: the number of calories will vary depending on the specific
 7. add the cooked lentils and chickpeas to the skillet. stir well to coat them with the sauce. cook for an additional 5 minutes to heat through.
 8. season with salt and pepper to taste. if desired, adjust the spices to your preference.
 9. remove from heat and sprinkle chopped cilantro on top as a garnish.
-10. serve hot with naan bread for dipping and scooping up the curry. enjoy!"|39.1|80.0|34.0|0.0|The key taste profile in this recipe is spicy (due to the curry powder, cumin, coriander, turmeric, paprika, and cayenne pepper)|sauteed|vegetarian|45.0|Indian|2.0|lentil, chickpea, onion, clove, garlic, minced, fresh, ginger, curry, powder, ground, cumin, ground, coriander, turmeric, paprika, cayenne, pepper, spice, tomato, coconut, milk, vegetable, salt, pepper, taste, fresh, cilantro, garnish, naan, bread
+10. serve hot with naan bread for dipping and scooping up the curry. enjoy!"|39.1|80.0|34.0|0.0||sauteed|vegetarian|45.0|Indian|2.0|lentil, chickpea, onion, clove, garlic, minced, fresh, ginger, curry, powder, ground, cumin, ground, coriander, turmeric, paprika, cayenne, pepper, spice, tomato, coconut, milk, vegetable, salt, pepper, taste, fresh, cilantro, garnish, naan, bread
 4249|Lemon Herb Roasted Turkey Breast|"75. Lemon Herb Roasted Turkey Breast: 500 kcals per portion, 4 portions, contains dairy, origin: Unknown
-"|halal|500.0|contains dairy|food_5900|"ingredients:
+"|halal|500.0|dairy|food_5900|"ingredients:
 - 1 bone-in turkey breast (about 6-8 pounds)
 - 1/4 cup olive oil
 - 3 tablespoons fresh lemon juice
@@ -1241,7 +1183,7 @@ calories per portion: the number of calories will vary depending on the specific
 5. roast the turkey breast in the preheated oven for about 2 to 2 1/2 hours, or until the internal temperature reaches 165°f (74°c) when checked with a meat thermometer.
 6. baste the turkey breast with the pan juices every 30 minutes while it cooks.
 7. once cooked, remove the turkey breast from the oven and let it rest for about 10 minutes before carving.
-8. carve and serve hot. enjoy!"|6.0|136.0|0.56|14.5|tangy|baked|meat-based|10.0|American|2.0|bone, turkey, breast, pound, olive, fresh, lemon, zest, lemon, clove, garlic, minced, dried, thyme, dried, rosemary, dried, oregano, salt, black, pepper
+8. carve and serve hot. enjoy!"|6.0|136.0|0.56|14.5||baked|meat-based|10.0|American|2.0|bone, turkey, breast, pound, olive, fresh, lemon, zest, lemon, clove, garlic, minced, dried, thyme, dried, rosemary, dried, oregano, salt, black, pepper
 4251|Vegetable Curry with Roti|"79. Vegetable Curry with Roti: 400 kcals per portion, 4 portions, vegetarian, origin: India
 "|halal|400.0|NotAllergens|food_5902|"ingredients:
 - 2 tablespoons vegetable oil
@@ -1281,9 +1223,9 @@ for the roti:
 
 8. taste the curry and adjust the seasoning with salt if necessary. serve the vegetable curry hot, garnished with fresh cilantro, alongside the warm roti.
 
-enjoy your vegetable curry with roti!"|190.0|68.0|15.0|25.2|The key taste profile in this recipe is spicy.|sauteed|vegetarian|40.0|Indian|2.0|vegetable, onion, clove, garlic, minced, ginger, curry, powder, ground, cumin, ground, coriander, turmeric, chili, powder, spice, coconut, milk, vegetable, carrot, bell, pepper, potato, pea, salt, taste, fresh, cilantro, garnish, roti, flour, salt, vegetable, water
-4283|Beef tacos with avocado salsa and cilantro rice (600 calories per portion, 2 portions, contains gluten, origin|"22. Beef tacos with avocado salsa and cilantro rice (600 calories per portion, 2 portions, contains gluten, origin: Mexico)
-"|halal|600.0|contains gluten|food_5941|"mexico):
+enjoy your vegetable curry with roti!"|190.0|68.0|15.0|25.2||sauteed|vegetarian|40.0|Indian|2.0|vegetable, onion, clove, garlic, minced, ginger, curry, powder, ground, cumin, ground, coriander, turmeric, chili, powder, spice, coconut, milk, vegetable, carrot, bell, pepper, potato, pea, salt, taste, fresh, cilantro, garnish, roti, flour, salt, vegetable, water
+4283|Beef tacos with avocado salsa and cilantro rice|"22. Beef tacos with avocado salsa and cilantro rice (600 calories per portion, 2 portions, contains gluten, origin: Mexico)
+"|halal|600.0|gluten|food_5941|"mexico):
 
 ingredients:
 - 300g beef (preferably flank steak), thinly sliced
@@ -1311,8 +1253,8 @@ ingredients:
 4. in another bowl, combine the cooked rice, chopped cilantro, and lime juice to make the cilantro rice. mix well.
 5. warm the taco shells according to package instructions.
 6. to assemble the beef tacos, fill each taco shell with a portion of the cooked beef. top with the avocado salsa and serve with a side of cilantro rice.
-7. enjoy your delicious beef tacos with avocado salsa and cilantro rice!"|83.0|24.0|1.6|120.0|The key taste profile in this recipe is spicy.|sauteed|meat-based|35.0|Mexican|2.0|mexico, beef, preferably, flank, steak, thinly, olive, chili, powder, ground, cumin, garlic, powder, paprika, salt, pepper, taste, taco, shell, avocado, red, onion, tomato, jalapeno, seeded, minced, lime, fresh, cilantro, rice, fresh, cilantro, lime
-4311|Moroccan spiced roasted chicken with couscous (700 calories per portion, 2 portions, origin|"51. Moroccan spiced roasted chicken with couscous (700 calories per portion, 2 portions, origin: Morocco)
+7. enjoy your delicious beef tacos with avocado salsa and cilantro rice!"|83.0|24.0|1.6|120.0||sauteed|meat-based|35.0|Mexican|2.0|mexico, beef, preferably, flank, steak, thinly, olive, chili, powder, ground, cumin, garlic, powder, paprika, salt, pepper, taste, taco, shell, avocado, red, onion, tomato, jalapeno, seeded, minced, lime, fresh, cilantro, rice, fresh, cilantro, lime
+4311|Moroccan spiced roasted chicken with couscous|"51. Moroccan spiced roasted chicken with couscous (700 calories per portion, 2 portions, origin: Morocco)
 "|halal|700.0|NotAllergens|food_5970|"moroccan spiced roasted chicken with couscous (700 calories per portion, 2 portions)
 
 ingredients:
@@ -1347,10 +1289,10 @@ ingredients:
 10. fluff the cooked couscous with a fork and stir in chopped cilantro and mint.
 11. to serve, divide the couscous onto two plates.
 12. place a roasted chicken breast on top of each plate and garnish with lemon wedges.
-13. enjoy this delicious moroccan spiced roasted chicken with couscous!"|50.0|11.99|2.7|80.0|"The key taste profile in this recipe is ""spicy."""|roasted|meat-based|65.0|Moroccan|2.0|moroccan, spiced, roasted, chicken, couscous, calorie, portion, chicken, breast, ground, cumin, ground, coriander, ground, paprika, ground, turmeric, ground, cinnamon, ground, ginger, salt, black, pepper, olive, onion, clove, garlic, minced, couscous, chicken, broth, fresh, cilantro, fresh, mint, lemon, wedge
+13. enjoy this delicious moroccan spiced roasted chicken with couscous!"|50.0|11.99|2.7|80.0||roasted|meat-based|65.0|Moroccan|2.0|moroccan, spiced, roasted, chicken, couscous, calorie, portion, chicken, breast, ground, cumin, ground, coriander, ground, paprika, ground, turmeric, ground, cinnamon, ground, ginger, salt, black, pepper, olive, onion, clove, garlic, minced, couscous, chicken, broth, fresh, cilantro, fresh, mint, lemon, wedge
 4504|Spanish Tortilla Española|"66. Spanish Tortilla Española: Calories per portion: 300 kcal, Portions: 4, Allergy Warnings: None, Origin: Spain
 
-"|kosher|300.0|Eggs|food_6175|"ingredients:
+"|kosher|300.0|eggs|food_6175|"ingredients:
 - 4 medium potatoes
 - 1 medium onion
 - 6 eggs
@@ -1371,7 +1313,7 @@ ingredients:
 11. carefully flip the tortilla using a large plate or a lid to cover the pan.
 12. slide the tortilla back into the pan to cook the other side for another 5 minutes or until it is fully cooked and golden.
 13. once done, remove the tortilla from the pan and let it cool slightly before slicing it into wedges.
-14. serve the spanish tortilla española warm or at room temperature. enjoy!"|17.0|58.6|6.0|22.0|none|sauteed|vegetarian|45.0|Spanish|2.0|potato, onion, egg, salt, pepper, taste, olive
+14. serve the spanish tortilla española warm or at room temperature. enjoy!"|17.0|58.6|6.0|22.0||sauteed|vegetarian|45.0|Spanish|2.0|potato, onion, egg, salt, pepper, taste, olive
 4522|Lebanese Mana'eesh|"88. Lebanese Mana'eesh: Calories per portion: 400 kcal, Portions: 2, Allergy Warnings: Wheat, Origin: Lebanon
 
 "|kosher|400.0|NotAllergens|food_6193|"ingredients:
@@ -1396,10 +1338,10 @@ ingredients:
 10. carefully transfer the baking sheet with the topped mana'eesh onto the preheated pizza stone or baking sheet in the oven.
 11. bake for about 8-10 minutes, or until the dough is golden brown and the toppings are cooked and slightly crispy.
 12. remove from the oven and let cool for a few minutes before serving.
-13. lebanese mana'eesh are best enjoyed warm and can be served as a main dish, snack, or even for breakfast. serve with fresh vegetables, olives, and yogurt on the side if desired."|226.0|23.0|8.0|5.8|neutral|baked|grain-based|162.0|Lebanese|2.0|flour, yeast, sugar, salt, water, olive, topping, atar, cheese, ground, meat, tomato
+13. lebanese mana'eesh are best enjoyed warm and can be served as a main dish, snack, or even for breakfast. serve with fresh vegetables, olives, and yogurt on the side if desired."|226.0|23.0|8.0|5.8||baked|grain-based|162.0|Lebanese|2.0|flour, yeast, sugar, salt, water, olive, topping, atar, cheese, ground, meat, tomato
 4530|English Crumpets|"97. English Crumpets: Calories per portion: 250 kcal, Portions: 4, Allergy Warnings: Wheat, Origin: England
 
-"|kosher|250.0|Wheat|food_6202|"ingredients:
+"|kosher|250.0|wheat|food_6202|"ingredients:
 - 2 cups all-purpose flour
 - 1 teaspoon sugar
 - 1 teaspoon active dry yeast
@@ -1417,7 +1359,7 @@ ingredients:
 7. carefully flip the crumpets and cook for another 2-3 minutes on the other side, until golden brown.
 8. remove the cooked crumpets from the skillet and transfer them to a wire rack to cool slightly.
 9. repeat steps 5-8 with the remaining batter, greasing the skillet as needed.
-10. serve the english crumpets warm, either plain or with your favorite toppings like butter, jam, honey, or nutella. enjoy!"|14.5|23.0|1.7|23.0|neutral|sauteed|grain-based|70.0|English|2.0|flour, sugar, yeast, salt, milk, vegetable, butter, greasing
+10. serve the english crumpets warm, either plain or with your favorite toppings like butter, jam, honey, or nutella. enjoy!"|14.5|23.0|1.7|23.0||sauteed|grain-based|70.0|English|2.0|flour, sugar, yeast, salt, milk, vegetable, butter, greasing
 4599|Stuffed Bell Peppers with Quinoa and Chickpeas|"100. Stuffed Bell Peppers with Quinoa and Chickpeas
      - Calories: 240 per portion
      - Portions: 1
@@ -1450,9 +1392,9 @@ ingredients:
 9. bake in the preheated oven for about 20-25 minutes, or until the bell peppers are tender and the cheese is melted and slightly golden.
 10. remove from the oven and let cool for a few minutes before serving.
 
-enjoy your delicious stuffed bell peppers with quinoa and chickpeas!"|32.0|38.0|32.0|32.0|noisy|baked|vegetarian|75.0|Mediterranean|2.0|stuffed, bell, pepper, quinoa, chickpea, bell, pepper, color, quinoa, chickpea, onion, clove, garlic, minced, tomato, shredded, mozzarella, cheese, olive, dried, oregano, salt, pepper, taste
+enjoy your delicious stuffed bell peppers with quinoa and chickpeas!"|32.0|38.0|32.0|32.0||baked|vegetarian|75.0|Mediterranean|2.0|stuffed, bell, pepper, quinoa, chickpea, bell, pepper, color, quinoa, chickpea, onion, clove, garlic, minced, tomato, shredded, mozzarella, cheese, olive, dried, oregano, salt, pepper, taste
 4677|Assorted sushi rolls (vegetable, California, and spicy tuna)|"90. Assorted sushi rolls (vegetable, California, and spicy tuna): 2200kcal per portion, 100 portions, contains gluten, fish, and soy.
-"|kosher|2200.0|contains gluten|food_6386|"sure! here's a recipe for assorted sushi rolls:
+"|kosher|2200.0|gluten|food_6386|"sure! here's a recipe for assorted sushi rolls:
 
 ingredients:
 - for vegetable rolls:
@@ -1510,11 +1452,9 @@ ingredients:
    8. slice each roll into bite-sized pieces using a sharp knife.
    9. serve with soy sauce for dipping.
 
-note: feel free to customize these rolls with your favorite vegetables and adjust the quantities of ingredients according to your preference. enjoy your assorted sushi rolls!"|668.0|50.0|0.0|6.6|There is no recipe mentioned in the provided prompt. Could you please provide a recipe for me to analyze the key taste profile?|"the cooking style for the vegetable rolls is ""rolled"" or ""rolled-up"".
-the cooking style for the california rolls is ""rolled"" or ""rolled-up"".
-the cooking style for the spicy tuna rolls is ""rolled"" or ""rolled-up""."|the meal type for this recipe is sushi.|75.0|Japanese|2.0|assorted, sushi, roll, vegetable, roll, nori, seaweed, sheet, sushi, rice, seasoned, assorted, vegetable, cucumber, avocado, carrot, bell, pepper, strip, soy, sauce, dipping, california, roll, nori, seaweed, sheet, sushi, rice, seasoned, crab, stick, halved, lengthwise, avocado, strip, cucumber, strip, soy, sauce, dipping, spicy, tuna, roll, nori, seaweed, sheet, sushi, rice, seasoned, fresh, tuna, mayonnaise, sriracha, sauce, spice, preference, green, onion, soy, sauce, dipping
-4750|Veggie Spring Rolls with Spicy Peanut Sauce (280 kcal per portion, 2 portion)|"64. Veggie Spring Rolls with Spicy Peanut Sauce (280 kcal per portion, 2 portion) - Allergy Warning: Contains gluten, peanuts. Origin: Southeast Asia.
-"|kosher|280.0|Peanuts|food_6459|"ingredients:
+note: feel free to customize these rolls with your favorite vegetables and adjust the quantities of ingredients according to your preference. enjoy your assorted sushi rolls!"|668.0|50.0|0.0|6.6||rolling|the meal type for this recipe is sushi.|75.0|Japanese|2.0|assorted, sushi, roll, vegetable, roll, nori, seaweed, sheet, sushi, rice, seasoned, assorted, vegetable, cucumber, avocado, carrot, bell, pepper, strip, soy, sauce, dipping, california, roll, nori, seaweed, sheet, sushi, rice, seasoned, crab, stick, halved, lengthwise, avocado, strip, cucumber, strip, soy, sauce, dipping, spicy, tuna, roll, nori, seaweed, sheet, sushi, rice, seasoned, fresh, tuna, mayonnaise, sriracha, sauce, spice, preference, green, onion, soy, sauce, dipping
+4750|Veggie Spring Rolls with Spicy Peanut Sauce|"64. Veggie Spring Rolls with Spicy Peanut Sauce (280 kcal per portion, 2 portion) - Allergy Warning: Contains gluten, peanuts. Origin: Southeast Asia.
+"|kosher|280.0|peanuts|food_6459|"ingredients:
 - 6 spring roll wrappers
 - 1 cup shredded cabbage
 - 1 carrot, julienned
@@ -1537,14 +1477,14 @@ the cooking style for the spicy tuna rolls is ""rolled"" or ""rolled-up""."|the 
 3. in the center of the wrapper, layer shredded cabbage, carrot, cucumber, red bell pepper, cilantro leaves, mint leaves, and chopped peanuts.
 4. fold the bottom of the wrapper over the filling. then, fold in the sides and roll up tightly, similar to a burrito, until sealed. repeat this process with the remaining spring roll wrappers and filling.
 5. slice the spring rolls in half diagonally and serve with the spicy peanut sauce for dipping.
-6. allergy warning: check all ingredients for potential allergens and make sure they are safe for consumption based on individual dietary restrictions."|120.0|30.0|8.0|7.7|No key taste profile|sautéed|veggie|20.0|Asian|2.0|spring, wrapper, shredded, cabbage, carrot, cucumber, red, bell, pepper, thinly, fresh, cilantro, leaf, fresh, mint, leaf, roasted, peanut, spicy, peanut, sauce, peanut, butter, soy, sauce, tamari, gluten, rice, vinegar, honey, maple, syrup, vegan, sriracha, sauce, taste, water
+6. allergy warning: check all ingredients for potential allergens and make sure they are safe for consumption based on individual dietary restrictions."|120.0|30.0|8.0|7.7||sauteed|veggie|20.0|Asian|2.0|spring, wrapper, shredded, cabbage, carrot, cucumber, red, bell, pepper, thinly, fresh, cilantro, leaf, fresh, mint, leaf, roasted, peanut, spicy, peanut, sauce, peanut, butter, soy, sauce, tamari, gluten, rice, vinegar, honey, maple, syrup, vegan, sriracha, sauce, taste, water
 4826|Mini Spinach and Cheese Hand Pies|"25. Mini Spinach and Cheese Hand Pies:
 - Calories: 160 kcal per portion
 - Portions: 2
 - Allergy Warnings: Dairy, Gluten
 - Origin: N/A
 
-"|kosher|160.0|Milk|food_6547|"ingredients:
+"|kosher|160.0|lactose|food_6547|"ingredients:
 - 2 cups fresh spinach, chopped
 - 1 cup shredded cheese (such as cheddar or mozzarella)
 - 1/4 cup grated parmesan cheese
@@ -1564,12 +1504,12 @@ the cooking style for the spicy tuna rolls is ""rolled"" or ""rolled-up""."|the 
 6. repeat steps 3-5 with the remaining puff pastry sheet and filling.
 7. place the hand pies on a baking sheet lined with parchment paper.
 8. bake in the preheated oven for about 15-20 minutes, or until the pastry is golden and crispy.
-9. remove from the oven and let the mini spinach and cheese hand pies cool for a few minutes before serving. enjoy!"|132.0|82.0|0.0|13.5|cheesy|baked|vegetarian|65.0|Italian|2.0|fresh, spinach, shredded, cheese, cheddar, mozzarella, parmesan, cheese, ricotta, cheese, garlic, powder, onion, powder, salt, black, pepper, sheet, puff, pastry, thawed
+9. remove from the oven and let the mini spinach and cheese hand pies cool for a few minutes before serving. enjoy!"|132.0|82.0|0.0|13.5||baked|vegetarian|65.0|Italian|2.0|fresh, spinach, shredded, cheese, cheddar, mozzarella, parmesan, cheese, ricotta, cheese, garlic, powder, onion, powder, salt, black, pepper, sheet, puff, pastry, thawed
 4953|Stuffed Grape Tomatoes with Cream Cheese|"100. Stuffed Grape Tomatoes with Cream Cheese
      Calories: 90 per portion
      Portions: 4
      Allergen: Dairy
-     Origin: Unknown"|kosher|90.0|Milk|food_6692|"ingredients:
+     Origin: Unknown"|kosher|90.0|lactose|food_6692|"ingredients:
 - 24 grape tomatoes
 - 4 ounces cream cheese, softened
 - 2 tablespoons finely chopped fresh herbs (such as basil, parsley, or chives)
@@ -1580,12 +1520,12 @@ the cooking style for the spicy tuna rolls is ""rolled"" or ""rolled-up""."|the 
 2. in a small bowl, mix together the softened cream cheese, chopped fresh herbs, salt, and pepper until well combined.
 3. spoon or pipe the cream cheese mixture into each hollowed grape tomato until filled.
 4. arrange the stuffed grape tomatoes on a serving platter and refrigerate for at least 30 minutes to allow the flavors to meld.
-5. serve chilled and enjoy as a delicious appetizer or snack."|28.0|42.0|1.0|32.0|There is no specific taste profile indicated in this recipe.|"Stuffed grape tomatoes with cream cheese would be considered ""assembled"" rather than cooked, as no heat is applied to the ingredients."|NotInformation|20.0|Appetizer|1.0|grape, tomato, ounce, cream, cheese, fresh, herb, basil, parsley, chive, salt, pepper, taste
+5. serve chilled and enjoy as a delicious appetizer or snack."|28.0|42.0|1.0|32.0||assembling, no-cook, stuffed|NotInformation|20.0|Appetizer|1.0|grape, tomato, ounce, cream, cheese, fresh, herb, basil, parsley, chive, salt, pepper, taste
 4987|Rice paper rolls with shrimp and vegetables|"55. Rice paper rolls with shrimp and vegetables: 180kcals per portion, 1 portion.
     - Allergy warning: shellfish.
     - Origin: Vietnam.
 
-"|kosher|180.0|Shellfish|food_6726|"ingredients:
+"|kosher|180.0|shellfish|food_6726|"ingredients:
 - rice paper wrappers
 - cooked shrimp, peeled and deveined
 - carrot, julienned
@@ -1605,9 +1545,9 @@ the cooking style for the spicy tuna rolls is ""rolled"" or ""rolled-up""."|the 
 7. repeat the process with the remaining ingredients until all the rice paper wrappers and filling are used.
 8. serve the rice paper rolls immediately with your favorite dipping sauce like peanut sauce or sweet chili sauce.
 
-enjoy your delicious rice paper rolls with shrimp and vegetables!"|110.0|15.0|2.6|24.0|fresh|sauteed|veggie|10.0|Vietnamese|2.0|rice, wrapper, shrimp, deveined, carrot, cucumber, bell, pepper, thinly, fresh, mint, leaf, fresh, cilantro, leaf, rice, vermicelli, noodle
-5203|Indian Masoor Dal (300 calories per portion, serves 6, contains legumes, origin|"29. Indian Masoor Dal (300 calories per portion, serves 6, contains legumes, origin: India)
-"|kosher|300.0|contains legumes|food_7030|"india):
+enjoy your delicious rice paper rolls with shrimp and vegetables!"|110.0|15.0|2.6|24.0||sauteed|veggie|10.0|Vietnamese|2.0|rice, wrapper, shrimp, deveined, carrot, cucumber, bell, pepper, thinly, fresh, mint, leaf, fresh, cilantro, leaf, rice, vermicelli, noodle
+5203|Indian Masoor Dal|"29. Indian Masoor Dal (300 calories per portion, serves 6, contains legumes, origin: India)
+"|kosher|300.0|legumes|food_7030|"india):
 
 ingredients:
 - 1 cup masoor dal (red lentils)
@@ -1633,14 +1573,14 @@ ingredients:
 6. add the turmeric powder, red chili powder, and garam masala to the pan, and cook for a minute to release the flavors.
 7. transfer the cooked masoor dal to the pan with the onion and spice mixture. mix well, and season with salt to taste.
 8. simmer the dal for an additional 5-10 minutes to allow the flavors to meld together.
-9. serve the indian masoor dal hot, garnished with chopped cilantro. it can be enjoyed with steamed rice, naan bread, or roti."|121.0|14.6|5.6|44.0|spicy|sauteed|vegetarian|75.0|Indian|1.0|india, masoor, dal, red, lentil, water, vegetable, onion, clove, garlic, minced, ginger, cumin, seed, mustard, seed, turmeric, powder, red, chili, powder, spice, preference, garam, masala, salt, taste, fresh, cilantro, garnish
+9. serve the indian masoor dal hot, garnished with chopped cilantro. it can be enjoyed with steamed rice, naan bread, or roti."|121.0|14.6|5.6|44.0||sauteed|vegetarian|75.0|Indian|1.0|india, masoor, dal, red, lentil, water, vegetable, onion, clove, garlic, minced, ginger, cumin, seed, mustard, seed, turmeric, powder, red, chili, powder, spice, preference, garam, masala, salt, taste, fresh, cilantro, garnish
 5332|Baked Salmon with roasted vegetables|"6. Baked Salmon with roasted vegetables
    Calories per portion: 400 kcal
    Total portions: 2
    Allergic warnings: -
    Origin: -
 
-"|kosher|400.0|Fish|food_7207|"ingredients:
+"|kosher|400.0|seafood|food_7207|"ingredients:
 - 4 salmon fillets
 - 2 cups of mixed vegetables (such as zucchini, bell peppers, and cherry tomatoes)
 - 2 tablespoons of olive oil
@@ -1657,7 +1597,7 @@ ingredients:
 7. serve the baked salmon on a plate alongside the roasted vegetables.
 8. enjoy the meal!
 
-calories per portion: the calorie count may vary depending on the portion size of the salmon fillets and the amount of vegetables used. it is recommended to calculate the calories based on the specific ingredients and quantities you use."|28.0|56.0|7.0|120.0|herb|Baked|NotInformation|30.0|European|2.0|salmon, fillet, vegetable, zucchini, bell, pepper, cherry, tomato, olive, dried, herb, thyme, oregano, rosemary, salt, black, pepper, taste
+calories per portion: the calorie count may vary depending on the portion size of the salmon fillets and the amount of vegetables used. it is recommended to calculate the calories based on the specific ingredients and quantities you use."|28.0|56.0|7.0|120.0||baked|NotInformation|30.0|European|2.0|salmon, fillet, vegetable, zucchini, bell, pepper, cherry, tomato, olive, dried, herb, thyme, oregano, rosemary, salt, black, pepper, taste
 5448|Roasted Eggplant Wrap|"40. Roasted Eggplant Wrap - 250kcals per portion, 3 portions, dairy-free, International
 
 "|kosher|250.0|NotAllergens|food_7441|"ingredients:
@@ -1684,9 +1624,9 @@ calories per portion: the calorie count may vary depending on the portion size o
 9. roll up the tortillas tightly, tucking in the sides as you go.
 10. slice each wrap in half and serve immediately.
 
-enjoy your dairy-free and international roasted eggplant wraps!"|135.0|47.0|32.0|25.0|smoky|baked|veggie|35.0|Mediterranean|2.0|eggplant, olive, ground, cumin, smoked, paprika, salt, pepper, taste, whole, wheat, tortilla, spinach, leaf, red, onion, thinly, tomato, hummus
+enjoy your dairy-free and international roasted eggplant wraps!"|135.0|47.0|32.0|25.0||baked|veggie|35.0|Mediterranean|2.0|eggplant, olive, ground, cumin, smoked, paprika, salt, pepper, taste, whole, wheat, tortilla, spinach, leaf, red, onion, thinly, tomato, hummus
 5640|Grilled shrimp skewers with quinoa and roasted vegetables – 450 calories per portion, 2 portions, contains shellfish|"90. Grilled shrimp skewers with quinoa and roasted vegetables – 450 calories per portion, 2 portions, contains shellfish
-"|kosher|450.0|contains shellfish|food_7891|"ingredients:
+"|kosher|450.0|shellfish|food_7891|"ingredients:
 - 12 large shrimp, peeled and deveined
 - 1 cup quinoa
 - 2 bell peppers, cut into chunks
@@ -1707,7 +1647,7 @@ enjoy your dairy-free and international roasted eggplant wraps!"|135.0|47.0|32.0
 6. place the skewers on the preheated grill and cook for about 3-4 minutes per side until the shrimp is pink and cooked through, and the vegetables are slightly charred.
 7. remove the skewers from the grill and let them cool slightly.
 8. serve the grilled shrimp skewers over a bed of cooked quinoa.
-9. enjoy your delicious and healthy grilled shrimp skewers with quinoa and roasted vegetables!"|126.0|42.7|2.4|14.7|There isn't enough information to determine the key taste profile in this recipe.|grilled|meat-based|20.0|Grilled shrimp skewers with quinoa and roasted vegetables is a type of cuisine.|2.0|shrimp, deveined, quinoa, bell, pepper, zucchini, red, onion, olive, lemon, clove, garlic, minced, salt, pepper, taste, wooden, skewer, soaked, water, minute
+9. enjoy your delicious and healthy grilled shrimp skewers with quinoa and roasted vegetables!"|126.0|42.7|2.4|14.7||grilled|meat-based|20.0|Grilled shrimp skewers with quinoa and roasted vegetables is a type of cuisine.|2.0|shrimp, deveined, quinoa, bell, pepper, zucchini, red, onion, olive, lemon, clove, garlic, minced, salt, pepper, taste, wooden, skewer, soaked, water, minute
 5680|Moroccan Spiced Vegetable Tagine|"44. Moroccan Spiced Vegetable Tagine
     Calories: 300 per portion
     Portions: 4
@@ -1750,7 +1690,7 @@ ingredients:
 6. in a separate small pan, heat the sliced almonds over low heat until they turn slightly golden. remove from heat and set aside.
 7. serve the moroccan spiced vegetable tagine hot, garnished with freshly chopped cilantro and toasted sliced almonds. enjoy!
 
-note: the calorie count for this recipe will depend on the specific quantities of ingredients used and the serving size."|152.0|20.0|30.0|29.0|Spicy|Slow-cooked|NotInformation|40.0|Moroccan|2.0|olive, onion, clove, garlic, minced, ground, cumin, ground, coriander, ground, turmeric, ground, cinnamon, paprika, ground, ginger, ground, cardamom, cayenne, pepper, taste, salt, black, pepper, carrot, potato, eggplant, zucchini, bell, pepper, tomato, vegetable, broth, dried, apricot, almond, fresh, cilantro, garnish
+note: the calorie count for this recipe will depend on the specific quantities of ingredients used and the serving size."|152.0|20.0|30.0|29.0||slow-cooked|NotInformation|40.0|Moroccan|2.0|olive, onion, clove, garlic, minced, ground, cumin, ground, coriander, ground, turmeric, ground, cinnamon, paprika, ground, ginger, ground, cardamom, cayenne, pepper, taste, salt, black, pepper, carrot, potato, eggplant, zucchini, bell, pepper, tomato, vegetable, broth, dried, apricot, almond, fresh, cilantro, garnish
 6029|Vegan Breakfast Sausage and Biscuits|"22. Vegan Breakfast Sausage and Biscuits:
 Calories per portion: 500
 Total portions: 2
@@ -1804,9 +1744,9 @@ Origin country: N/A
 8. bake in the preheated oven for 12-15 minutes or until the biscuits are golden brown on top.
 9. remove the biscuits from the oven and let them cool slightly on a wire rack.
 
-to serve, split the warm biscuits in half and place a vegan sausage patty inside. you can also add vegan cheese or a drizzle of maple syrup for extra flavor. enjoy your homemade vegan breakfast sausage and biscuits!"|190.0|49.0|2.2|135.0|neutral|baked|grain-based|40.0|The cuisine type of the recipe is: **Vegan**|2.0|vegan, sausage, vegetable, protein, tvp, vegetable, broth, hot, soy, sauce, tamari, fennel, seed, smoked, paprika, garlic, powder, onion, powder, ground, sage, black, pepper, red, pepper, flake, spicy, kick, olive, vegetable, salt, taste, vegan, biscuit, flour, baking, powder, baking, soda, salt, vegan, butter, coconut, unsweetened, plant, milk, almond, soy, milk, apple, cider, vinegar, lemon
+to serve, split the warm biscuits in half and place a vegan sausage patty inside. you can also add vegan cheese or a drizzle of maple syrup for extra flavor. enjoy your homemade vegan breakfast sausage and biscuits!"|190.0|49.0|2.2|135.0||baked|grain-based|40.0|The cuisine type of the recipe is: **Vegan**|2.0|vegan, sausage, vegetable, protein, tvp, vegetable, broth, hot, soy, sauce, tamari, fennel, seed, smoked, paprika, garlic, powder, onion, powder, ground, sage, black, pepper, red, pepper, flake, spicy, kick, olive, vegetable, salt, taste, vegan, biscuit, flour, baking, powder, baking, soda, salt, vegan, butter, coconut, unsweetened, plant, milk, almond, soy, milk, apple, cider, vinegar, lemon
 6042|Vegan Spinach Dip with Pita Chips|"53. Vegan Spinach Dip with Pita Chips - 140 kcals per portion, 4 portions, no allergic warnings, origin: N/A
-"|vegan|140.0|Wheat|food_932|" for pita chips:
+"|vegan|140.0|wheat|food_932|" for pita chips:
 - 4-6 pitas (use gluten-free if necessary)
 - 2 tablespoons olive oil
 - salt, to taste
@@ -1842,9 +1782,9 @@ to serve, split the warm biscuits in half and place a vegan sausage patty inside
 8. **serve:**
    - allow the pita chips to cool slightly before serving. serve the warm vegan spinach dip with your homemade pita chips on the side.
 
-enjoy your homemade vegan spinach dip with crispy pita chips, perfect for a healthy appetizer or snack!"|250.0|20.0|8.0|42.0|none|baked|bread|25.0|Mediterranean|2.0|pita, chip, pita, gluten, olive, salt, taste, garlic, powder, onion, powder, seasoning
+enjoy your homemade vegan spinach dip with crispy pita chips, perfect for a healthy appetizer or snack!"|250.0|20.0|8.0|42.0||baked|bread|25.0|Mediterranean|2.0|pita, chip, pita, gluten, olive, salt, taste, garlic, powder, onion, powder, seasoning
 6043|Guacamole and Veggie Sticks|"2. Guacamole and Veggie Sticks: 120 kcals per portion, makes 4 portions, contains soy (Origin: Mexico)
-"|vegan|120.0|contains soy (Origin: Mexico)|food_980|"#### for guacamole:
+"|vegan|120.0|soy|food_980|"#### for guacamole:
 - 3 ripe avocados, peeled and pitted
 - 1 ripe tomato, diced
 - 1 small onion, finely chopped
@@ -1883,9 +1823,9 @@ enjoy your homemade vegan spinach dip with crispy pita chips, perfect for a heal
    - serve the guacamole immediately with the array of veggie sticks and optional tortilla chips on the side.
    - optionally, sprinkle the guacamole with freshly ground black pepper or a touch of chili powder for an extra kick.
 
-enjoy your homemade guacamole with a crisp and colorful selection of veggie sticks—a healthy and delicious snack or appetizer!"|45.0|60.0|38.0|19.5|neutral|baked|grain-based|20.0|Mexican|2.0|guacamole, avocado, pitted, tomato, onion, clove, garlic, minced, jalape, pepper, seeded, minced, taste, lime, taste, handful, fresh, cilantro, salt, pepper, taste, veggie, stick, carrot, stick, celery, stick, bell, pepper, color, cored, strip, cucumber, stick, seed, veggie, radish, jicama, tortilla, chip, freshly, ground, black, pepper, chili, powder, spice
+enjoy your homemade guacamole with a crisp and colorful selection of veggie sticks—a healthy and delicious snack or appetizer!"|45.0|60.0|38.0|19.5||baked|grain-based|20.0|Mexican|2.0|guacamole, avocado, pitted, tomato, onion, clove, garlic, minced, jalape, pepper, seeded, minced, taste, lime, taste, handful, fresh, cilantro, salt, pepper, taste, veggie, stick, carrot, stick, celery, stick, bell, pepper, color, cored, strip, cucumber, stick, seed, veggie, radish, jicama, tortilla, chip, freshly, ground, black, pepper, chili, powder, spice
 6044|Chickpea Curry with Rice|"43. Chickpea Curry with Rice: 940 kcals per portion, makes 2 portions, contains legumes (Origin: India)
-"|vegan|940.0|contains legumes (Origin: India)|food_1012|" for the rice:**
+"|vegan|940.0|legumes|food_1012|" for the rice:**
 
 - 1 cup of basmati rice
 - 2 cups of water
@@ -1919,7 +1859,7 @@ enjoy your homemade guacamole with a crisp and colorful selection of veggie stic
 
 3. serve the chickpea curry over the prepared rice and garnish with chopped fresh cilantro. provide lemon or lime wedges for squeezing over the curry, enhancing the flavors.
 
-enjoy your delicious chickpea curry with rice!"|98.0|14.0|2.4|6.4|neutral|baked|indian|20.0|Indian|2.0|rice, basmati, rice, water, salt, butter
+enjoy your delicious chickpea curry with rice!"|98.0|14.0|2.4|6.4||baked|indian|20.0|Indian|2.0|rice, basmati, rice, water, salt, butter
 6051|Vegan Thai Red Curry Noodle Soup|"91. Vegan Thai Red Curry Noodle Soup
 Total calories per portion: 400 kcals
 Total portions: 4
@@ -1969,9 +1909,9 @@ for the noodle soup:
 
 11. serve with additional lime wedges on the side for extra tanginess.
 
-enjoy your hearty and warming vegan thai red curry noodle soup!"|190.0|64.0|14.0|40.0|The key taste profile in this recipe is: spicy|Sauteed|NotInformation|30.0|Thai|2.0|red, curry, broth, coconut, thai, red, curry, paste, spicy, onion, clove, garlic, minced, fresh, ginger, coconut, milk, fat, creamier, soup, vegetable, broth, soy, sauce, tamari, gluten, brown, sugar, maple, syrup, lime, noodle, soup, gram, ounce, rice, noodle, wide, preference, carrot, red, bell, pepper, thinly, pea, green, bean, piece, mushroom, baby, corn, piece, fresh, thai, basil, leaf, basil, unavailable, fresh, cilantro, garnish, fresh, lime, wedge, topping, bean, sprout, peanut, red, chili, flake
+enjoy your hearty and warming vegan thai red curry noodle soup!"|190.0|64.0|14.0|40.0||sauteed|NotInformation|30.0|Thai|2.0|red, curry, broth, coconut, thai, red, curry, paste, spicy, onion, clove, garlic, minced, fresh, ginger, coconut, milk, fat, creamier, soup, vegetable, broth, soy, sauce, tamari, gluten, brown, sugar, maple, syrup, lime, noodle, soup, gram, ounce, rice, noodle, wide, preference, carrot, red, bell, pepper, thinly, pea, green, bean, piece, mushroom, baby, corn, piece, fresh, thai, basil, leaf, basil, unavailable, fresh, cilantro, garnish, fresh, lime, wedge, topping, bean, sprout, peanut, red, chili, flake
 6059|Tofu Stir Fry|"4. Tofu Stir Fry: 245 calories per portion, 3 portions, Allergic to soy
-"|vegan|245.0|Sesame|food_1693|"
+"|vegan|245.0|sesame|food_1693|"
 - **firm tofu:** 1 block (around 14 ounces), pressed and cut into bite-size cubes
 - **vegetable oil:** 2 tablespoons (for frying tofu)
 - **garlic:** 2-3 cloves, minced
@@ -2013,7 +1953,7 @@ enjoy your hearty and warming vegan thai red curry noodle soup!"|190.0|64.0|14.0
 - to make the tofu even crisper, consider coating the tofu cubes lightly with some cornstarch prior to frying.
 - for added flavor, tofu can be marinated as suggested, or pan-fried with some soy sauce.
 
-enjoy your meal!"|5.3|32.0|56.0|5.3|neutral|baked|grain-based|25.0|The cuisine type of this recipe is **Asian**.|2.0|tofu, ounce, cube, vegetable, tofu, garlic, clove, minced, ginger, vegetable, include, bell, pepper, broccoli, floret, pea, shredded, carrot, baby, corn, soy, sauce, rice, vinegar, cornstarch, thicker, sauce, sesame, brown, sugar, hint, sweetness, chili, flake, pinch, green, onion, garnish, sesame, seed, garnish, salt, taste, pepper, taste
+enjoy your meal!"|5.3|32.0|56.0|5.3||baked|grain-based|25.0|The cuisine type of this recipe is **Asian**.|2.0|tofu, ounce, cube, vegetable, tofu, garlic, clove, minced, ginger, vegetable, include, bell, pepper, broccoli, floret, pea, shredded, carrot, baby, corn, soy, sauce, rice, vinegar, cornstarch, thicker, sauce, sesame, brown, sugar, hint, sweetness, chili, flake, pinch, green, onion, garnish, sesame, seed, garnish, salt, taste, pepper, taste
 6061|Vegan Bolognese|"16. Vegan Bolognese: 332 calories per portion, 4 portions, None, Italy
 "|vegan|332.0|NotAllergens|food_1696|"- 1 tablespoon olive oil
 - 1 medium onion, finely chopped
@@ -2051,7 +1991,7 @@ enjoy your meal!"|5.3|32.0|56.0|5.3|neutral|baked|grain-based|25.0|The cuisine t
 
 14. serve the vegan bolognese over the cooked pasta, garnished with fresh basil or parsley.
 
-enjoy your plant-based twist on a classic italian dish!"|95.0|14.0|8.0|75.0|neutral|baked|grain-based|30.0|Italian|1.0|olive, onion, clove, garlic, minced, carrot, stalk, celery, bell, pepper, mushroom, cremini, work, lentil, dried, lentil
+enjoy your plant-based twist on a classic italian dish!"|95.0|14.0|8.0|75.0||baked|grain-based|30.0|Italian|1.0|olive, onion, clove, garlic, minced, carrot, stalk, celery, bell, pepper, mushroom, cremini, work, lentil, dried, lentil
 6080|Baba ganoush with pita bread|"54. Baba ganoush with pita bread:
     Calories per portion: 250
     Total portions: 2
@@ -2088,7 +2028,7 @@ for pita bread:
 7. preheat a skillet or griddle over medium-high heat. cook each circle of dough for about 1-2 minutes on each side, until puffed up and lightly golden.
 8. wrap the cooked pita bread in a clean dish towel to keep warm and soft until ready to serve.
 
-now your baba ganoush and homemade pita bread are ready to be enjoyed!"|264.0|7.5|12.0|58.0|neutral|baked|grain-based|90.0|Middle Eastern|2.0|pita, bread, making, scratch, yeast, packet, sugar, water, whole, wheat, flour, salt, olive
+now your baba ganoush and homemade pita bread are ready to be enjoyed!"|264.0|7.5|12.0|58.0||baked|grain-based|90.0|Middle Eastern|2.0|pita, bread, making, scratch, yeast, packet, sugar, water, whole, wheat, flour, salt, olive
 6083|Veggie Kabobs|"9. Veggie Kabobs: Calories per portion: 150kcals; Total portions: 4; Allergic warnings: None; Origin country: Unknown.
 "|vegetarian|150.0|NotAllergens|food_3044|"- wooden or metal skewers (if using wooden skewers, soak them in water for at least 20 to 30 minutes prior to use to prevent burning)
 - 1 bell pepper (choose your favorite color or a mix of colors), cut into 1 to 1½-inch pieces
@@ -2125,14 +2065,14 @@ now your baba ganoush and homemade pita bread are ready to be enjoyed!"|264.0|7.
 
 11. serve the veggie kabobs as a side dish, or as a main course accompanied by a grain like rice or quinoa, or with a dipping sauce of your choice.
 
-enjoy your delicious and healthy veggie kabobs! adjust the variety of vegetables and seasonings according to your taste or what you have on hand."|30.9|24.0|9.0|30.9|neutral|baked|grain-based|20.0|Mediterranean|2.0|wooden, skewer, wooden, skewer, soak, water, minute, prior, burning, bell, pepper, color, color, piece, zucchini, round, yellow, round, red, onion, hold, together, skewer, cherry, tomato, mushroom, stem, eggplant, cube, olive, brushing, salt, taste, pepper, taste, herb, seasoning, garlic, powder, italian, seasoning, paprika, vegetable, grill, seasoning
+enjoy your delicious and healthy veggie kabobs! adjust the variety of vegetables and seasonings according to your taste or what you have on hand."|30.9|24.0|9.0|30.9||baked|grain-based|20.0|Mediterranean|2.0|wooden, skewer, wooden, skewer, soak, water, minute, prior, burning, bell, pepper, color, color, piece, zucchini, round, yellow, round, red, onion, hold, together, skewer, cherry, tomato, mushroom, stem, eggplant, cube, olive, brushing, salt, taste, pepper, taste, herb, seasoning, garlic, powder, italian, seasoning, paprika, vegetable, grill, seasoning
 6097|French Croissant|"39. French Croissant
     Calories: 230 per portion
     Servings: 1
     Allergic Warnings: Gluten, Dairy
     Origin Country: France
 
-"|halal|230.0|Milk|food_4323|"for the dough (détrempe):
+"|halal|230.0|lactose|food_4323|"for the dough (détrempe):
 - 500 grams all-purpose flour
 - 140 milliliters warm milk
 - 60 milliliters warm water
@@ -2186,7 +2126,7 @@ for finishing:
 3. gently brush the egg wash over the proofed croissants.
 4. bake the croissants for 15 to 20 minutes, or until they are golden brown and flaky.
 
-once baked, let the croissants cool on a wire rack before serving. enjoy your homemade french croissants!"|490.0|70.0|1.7|7.7|Neutral|baked|grain-based|360.0|French|2.0|dough, trempe, gram, flour, milliliter, milk, milliliter, water, gram, sugar, gram, unsalted, butter, gram, salt, gram, packet, yeast, butter, layer, beurrage, gram, high, unsalted, butter, finishing, egg, egg, wash
+once baked, let the croissants cool on a wire rack before serving. enjoy your homemade french croissants!"|490.0|70.0|1.7|7.7||baked|grain-based|360.0|French|2.0|dough, trempe, gram, flour, milliliter, milk, milliliter, water, gram, sugar, gram, unsalted, butter, gram, salt, gram, packet, yeast, butter, layer, beurrage, gram, high, unsalted, butter, finishing, egg, egg, wash
 6108|Congee|"28. Congee: 200kcals per portion, 1 portion, allergy-free, originated in China.
 "|halal|200.0|NotAllergens|food_4501|"- 1 cup of rice (white jasmine or short-grain rice works well)
 - 8 to 10 cups of water, or as needed (you can also use chicken, vegetable, or beef broth for more flavor)
@@ -2217,9 +2157,9 @@ once baked, let the croissants cool on a wire rack before serving. enjoy your ho
 
 6. **serve with toppings:** ladle the hot congee into bowls and serve with your choice of toppings and flavorings. each person can customize their congee with the suggested garnishes.
 
-remember that congee is a versatile dish. you can adjust the consistency and flavor according to your preference. some people enjoy a very thick congee, while others prefer it to be more soup-like. the choice of toppings and flavorings can also vary widely based on personal taste and what's available. enjoy experimenting with different ingredients to find your favorite version of this comforting meal."|45.0|3.0|5.4|12.5|neutral|baked|grain-based|60.0|Chinese|1.0|rice, white, jasmine, short, grain, rice, work, water, needed, chicken, vegetable, beef, broth, flavor, ginger, salt, taste, topping, flavoring, chicken, pork, beef, shredded, boiled, boiled, egg, green, onion, garlic, shallot, light, soy, sauce, fish, sauce, sesame, white, pepper, fresh, coriander, leaf, cilantro, pickled, vegetable
+remember that congee is a versatile dish. you can adjust the consistency and flavor according to your preference. some people enjoy a very thick congee, while others prefer it to be more soup-like. the choice of toppings and flavorings can also vary widely based on personal taste and what's available. enjoy experimenting with different ingredients to find your favorite version of this comforting meal."|45.0|3.0|5.4|12.5||baked|grain-based|60.0|Chinese|1.0|rice, white, jasmine, short, grain, rice, work, water, needed, chicken, vegetable, beef, broth, flavor, ginger, salt, taste, topping, flavoring, chicken, pork, beef, shredded, boiled, boiled, egg, green, onion, garlic, shallot, light, soy, sauce, fish, sauce, sesame, white, pepper, fresh, coriander, leaf, cilantro, pickled, vegetable
 6114|Bell pepper and cream cheese stuffed mushrooms|"81. Bell pepper and cream cheese stuffed mushrooms: 180 calories per portion, 2 portions, contains dairy, origin: Various
-"|halal|180.0|contains dairy|food_4906|"- 12 large cremini or white mushrooms
+"|halal|180.0|dairy|food_4906|"- 12 large cremini or white mushrooms
 - 1 tablespoon olive oil, plus extra for greasing the baking sheet
 - 1/2 cup finely diced red bell pepper
 - 1/4 cup finely diced onion
@@ -2251,9 +2191,9 @@ remember that congee is a versatile dish. you can adjust the consistency and fla
 
 10. serve warm as an appetizer or a side dish.
 
-feel free to modify the recipe according to your taste preferences, adding more spices or herbs if desired. enjoy your bell pepper and cream cheese-stuffed mushrooms!"|20.0|52.0|14.4|20.0|neutral|baked|grain-based|35.0|Italian|2.0|cremini, white, mushroom, olive, greasing, baking, red, bell, pepper, onion, garlic, clove, minced, salt, pepper, taste, cream, cheese, parmesan, cheese, dried, thyme, fresh, thyme, leaf, bread, crumb, topping, fresh, parsley, garnish
+feel free to modify the recipe according to your taste preferences, adding more spices or herbs if desired. enjoy your bell pepper and cream cheese-stuffed mushrooms!"|20.0|52.0|14.4|20.0||baked|grain-based|35.0|Italian|2.0|cremini, white, mushroom, olive, greasing, baking, red, bell, pepper, onion, garlic, clove, minced, salt, pepper, taste, cream, cheese, parmesan, cheese, dried, thyme, fresh, thyme, leaf, bread, crumb, topping, fresh, parsley, garnish
 6119|Miso Soup with Tofu|"82. Miso Soup with Tofu: 120 calories per portion, 4 portions, contains soy.
-"|halal|120.0|contains soy|food_5327|"- 4 cups of dashi stock (japanese soup stock; you can also use vegetable or chicken broth if dashi is not available)
+"|halal|120.0|soy|food_5327|"- 4 cups of dashi stock (japanese soup stock; you can also use vegetable or chicken broth if dashi is not available)
 - 3-4 tablespoons of miso paste (red, white, or a mix)
 - 1 block of silken or firm tofu (about 300-400 grams), cut into small cubes
 - 1-2 green onions/scallions, finely chopped
@@ -2280,7 +2220,7 @@ feel free to modify the recipe according to your taste preferences, adding more 
 
 note: miso paste and wakame can have strong flavors, so start with a smaller amount and adjust according to your taste. it's also important to not overheat the soup after adding the miso to preserve its flavor and health benefits.
 
-enjoy your comforting bowl of miso soup!"|3.0|25.0|5.0|45.0|neutral|baked|grain-based|15.0|Japanese|2.0|dashi, stock, japanese, soup, stock, vegetable, chicken, broth, dashi, miso, paste, red, white, silken, tofu, gram, cube, green, onion, scallion, nori, dried, seaweed, strip, handful, wakame, seaweed, dried, soak, water, rehydrate
+enjoy your comforting bowl of miso soup!"|3.0|25.0|5.0|45.0||baked|grain-based|15.0|Japanese|2.0|dashi, stock, japanese, soup, stock, vegetable, chicken, broth, dashi, miso, paste, red, white, silken, tofu, gram, cube, green, onion, scallion, nori, dried, seaweed, strip, handful, wakame, seaweed, dried, soak, water, rehydrate
 6120|Moroccan Lamb Kefta|"86. Moroccan Lamb Kefta: Total calories per portion - 400kcals, Total portions - 2, Origin country - Morocco.
 "|halal|400.0|NotAllergens|food_5401|"
 
@@ -2314,7 +2254,7 @@ enjoy your comforting bowl of miso soup!"|3.0|25.0|5.0|45.0|neutral|baked|grain-
 
 7. **serve hot** - serve the kefta hot off the grill with lemon wedges, fresh parsley for garnish, and your choice of side dishes such as a fresh cucumber-tomato salad, tzatziki sauce, hummus, or warm pita bread.
 
-enjoy your homemade moroccan lamb kefta!"|8.0|70.0|5.0|8.94|neutral|baked|grain-based|25.0|Moroccan|2.0|ground, lamb, beef, onion, garlic, clove, minced, fresh, parsley, fresh, cilantro, cumin, paprika, sweet, paprika, others, sweet, hot, cinnamon, coriander, cayenne, pepper, preference, salt, black, pepper, taste, olive, brushing, keftas, lemon, wedge, parsley, garnish
+enjoy your homemade moroccan lamb kefta!"|8.0|70.0|5.0|8.94||baked|grain-based|25.0|Moroccan|2.0|ground, lamb, beef, onion, garlic, clove, minced, fresh, parsley, fresh, cilantro, cumin, paprika, sweet, paprika, others, sweet, hot, cinnamon, coriander, cayenne, pepper, preference, salt, black, pepper, taste, olive, brushing, keftas, lemon, wedge, parsley, garnish
 6123|BBQ pulled chicken sandwiches|"17. BBQ pulled chicken sandwiches
 - Calories: 400 per portion
 - Total portions: 4
@@ -2351,9 +2291,9 @@ enjoy your homemade moroccan lamb kefta!"|8.0|70.0|5.0|8.94|neutral|baked|grain-
 
 8. serve immediately while hot.
 
-enjoy your bbq pulled chicken sandwiches with a side of fries, potato salad, or a garden salad for a complete meal."|120.0|38.0|5.4|126.0|neutral|baked|bread|20.0|American|2.0|shredded, chicken, rotisserie, chicken, work, barbecue, sauce, olive, onion, clove, garlic, minced, salt, pepper, taste, hamburger, bun, sandwich, roll, topping, coleslaw, pickle, bbq, sauce, garnish, fresh, parsley, chive
+enjoy your bbq pulled chicken sandwiches with a side of fries, potato salad, or a garden salad for a complete meal."|120.0|38.0|5.4|126.0||baked|bread|20.0|American|2.0|shredded, chicken, rotisserie, chicken, work, barbecue, sauce, olive, onion, clove, garlic, minced, salt, pepper, taste, hamburger, bun, sandwich, roll, topping, coleslaw, pickle, bbq, sauce, garnish, fresh, parsley, chive
 6130|Chicken Tikka Masala with Naan Bread|"81. Chicken Tikka Masala with Naan Bread: 700 kcals per portion, 2 portions, contains dairy, origin: India
-"|halal|700.0|contains dairy|food_5904|" for chicken tikka masala:
+"|halal|700.0|dairy|food_5904|" for chicken tikka masala:
 
 #### for the chicken marinade:
 - 1 cup yogurt
@@ -2421,7 +2361,7 @@ enjoy your bbq pulled chicken sandwiches with a side of fries, potato salad, or 
 
 8. brush the naan with butter (optional) and serve hot with the chicken tikka masala.
 
-feel free to garnish your chicken tikka masala with additional fresh cilantro and serve it with sliced onions, lemon wedges, and rice on the side. enjoy your homemade chicken tikka masala with naan bread!"|97.5|66.0|0.0|97.5|none.|baked|bread|45.0|Indian|2.0|chicken, tikka, masala, chicken, yogurt, lemon, ground, cumin, ground, cinnamon, cayenne, pepper, taste, freshly, ground, black, pepper, minced, fresh, ginger, salt, boneless, skinless, chicken, breast, piece, sauce, butter, clove, garlic, minced, jalapeno, pepper, taste, ground, cumin, paprika, salt, taste, tomato, sauce, cream, fresh, cilantro, coriander, leaf, garnish, naan, bread, flour, yeast, sugar, salt, baking, powder, vegetable, plain, yogurt, water
+feel free to garnish your chicken tikka masala with additional fresh cilantro and serve it with sliced onions, lemon wedges, and rice on the side. enjoy your homemade chicken tikka masala with naan bread!"|97.5|66.0|0.0|97.5||baked|bread|45.0|Indian|2.0|chicken, tikka, masala, chicken, yogurt, lemon, ground, cumin, ground, cinnamon, cayenne, pepper, taste, freshly, ground, black, pepper, minced, fresh, ginger, salt, boneless, skinless, chicken, breast, piece, sauce, butter, clove, garlic, minced, jalapeno, pepper, taste, ground, cumin, paprika, salt, taste, tomato, sauce, cream, fresh, cilantro, coriander, leaf, garnish, naan, bread, flour, yeast, sugar, salt, baking, powder, vegetable, plain, yogurt, water
 6135|Italian Cannoli|"95. Italian Cannoli: Calories per portion: 350 kcal, Portions: 4, Allergy Warnings: Dairy and Wheat, Origin: Italy
 
 "|kosher|350.0|NotAllergens|food_6200|"#### for the cannoli shells:
@@ -2471,14 +2411,14 @@ feel free to garnish your chicken tikka masala with additional fresh cilantro an
 3. dust with powdered sugar right before serving.
 4. garnish each end with a cherry, if desired.
 
-to ensure the shells remain crisp, fill them just before serving. enjoy your homemade italian cannoli!"|656.0|75.0|7.2|112.0|none|baked|grain-based|60.0|Italian|2.0|cannoli, shell, flour, sugar, ground, cinnamon, salt, unsalted, butter, egg, white, wine, marsala, wine, vegetable, cannoli, filling, ricotta, cheese, preferably, whole, milk, cheesecloth, sieve, sugar, garnish, vanilla, extract, chocolate, chip, chocolate, candied, orange, peel, zest, orange, cannoli, tube, tube, shaping, pistachio, garnish, cherry, garnish, sugar
+to ensure the shells remain crisp, fill them just before serving. enjoy your homemade italian cannoli!"|656.0|75.0|7.2|112.0||baked|grain-based|60.0|Italian|2.0|cannoli, shell, flour, sugar, ground, cinnamon, salt, unsalted, butter, egg, white, wine, marsala, wine, vegetable, cannoli, filling, ricotta, cheese, preferably, whole, milk, cheesecloth, sieve, sugar, garnish, vanilla, extract, chocolate, chip, chocolate, candied, orange, peel, zest, orange, cannoli, tube, tube, shaping, pistachio, garnish, cherry, garnish, sugar
 6137|Oatmeal with Blueberries and Almonds|"9. Oatmeal with Blueberries and Almonds
    - Calories: 280 per portion
    - Portions: 1
    - Allergic Warning: Nuts
    - Country: -
 
-"|kosher|280.0|Tree nuts|food_6214|"- 1/2 cup (50g) rolled oats
+"|kosher|280.0|tree nuts|food_6214|"- 1/2 cup (50g) rolled oats
 - 1 cup (240ml) water or milk (for a creamier oatmeal, use milk)
 - a pinch of salt
 - 1/2 cup (75g) fresh blueberries (or frozen blueberries, but don't thaw them)
@@ -2507,9 +2447,9 @@ to ensure the shells remain crisp, fill them just before serving. enjoy your hom
 6. **enjoy:**
    - your oatmeal with blueberries and almonds is ready to eat! enjoy it warm.
 
-feel free to adjust the sweetness to your taste by adding more or less honey or maple syrup, or consider alternative natural sweeteners like agave nectar or stevia. for a vegan option, use water or a plant-based milk and maple syrup or other vegan sweetener."|48.0|11.0|10.7|9.27|none|simmered|bread|5.0|Breakfast|2.0|rolled, oat, water, milk, creamier, oatmeal, milk, pinch, salt, fresh, blueberry, frozen, blueberry, thaw, almond, honey, maple, syrup, sweetness, ground, cinnamon, topping, chia, seed, flaxseed, dollop, yogurt
+feel free to adjust the sweetness to your taste by adding more or less honey or maple syrup, or consider alternative natural sweeteners like agave nectar or stevia. for a vegan option, use water or a plant-based milk and maple syrup or other vegan sweetener."|48.0|11.0|10.7|9.27||simmered|bread|5.0|Breakfast|2.0|rolled, oat, water, milk, creamier, oatmeal, milk, pinch, salt, fresh, blueberry, frozen, blueberry, thaw, almond, honey, maple, syrup, sweetness, ground, cinnamon, topping, chia, seed, flaxseed, dollop, yogurt
 6141|Grilled Eggplant Rolls|"6. Grilled Eggplant Rolls: 80 kcal per portion, 10 portions, contains garlic, originated in Italy.
-"|kosher|80.0|contains garlic|food_6498|"- 2 large eggplants, cut lengthwise into 1/4-inch thick slices
+"|kosher|80.0|garlic|food_6498|"- 2 large eggplants, cut lengthwise into 1/4-inch thick slices
 - 2 tablespoons olive oil, plus extra for brushing
 - salt and pepper, to taste
 - 1 cup ricotta cheese
@@ -2539,13 +2479,13 @@ feel free to adjust the sweetness to your taste by adding more or less honey or 
 
 9. **garnish and serve:** remove from oven, garnish with fresh herbs if desired, and serve the eggplant rolls hot as an appetizer or main dish.
 
-feel free to customize the filling by adding ingredients like spinach, sun-dried tomatoes, or finely chopped nuts for added texture and flavor. enjoy your meal!"|47.0|72.0|0.0|2.7|neutral|baked|grain-based|30.0|Italian|2.0|eggplant, lengthwise, olive, brushing, salt, pepper, taste, ricotta, cheese, parmesan, cheese, egg, lightly, fresh, basil, fresh, parsley, marinara, sauce, mozzarella, cheese, shredded, herb, garnish
+feel free to customize the filling by adding ingredients like spinach, sun-dried tomatoes, or finely chopped nuts for added texture and flavor. enjoy your meal!"|47.0|72.0|0.0|2.7||baked|grain-based|30.0|Italian|2.0|eggplant, lengthwise, olive, brushing, salt, pepper, taste, ricotta, cheese, parmesan, cheese, egg, lightly, fresh, basil, fresh, parsley, marinara, sauce, mozzarella, cheese, shredded, herb, garnish
 6152|Sushi Bowl|"28. Sushi Bowl - 400 kcal
     Total Portions: 2
     Allergic Warnings: Contains soy and seaweed
     Origin Country: Japan
 
-"|kosher|400.0|Fish|food_7329| you might use in a sushi bowl, followed by |"
+"|kosher|400.0|seafood|food_7329| you might use in a sushi bowl, followed by |"
 1. **cook the rice:**
    - rinse the sushi rice in cold water until the water runs clear.
    - combine the rice and water in a medium saucepan. bring the mixture to a boil, then reduce the heat to low, cover, and cook for about 15-20 minutes, or until the water is absorbed and the rice is tender.
@@ -2566,7 +2506,7 @@ feel free to customize the filling by adding ingredients like spinach, sun-dried
    - sprinkle sesame seeds over the top for garnish.
    - serve with soy sauce, wasabi, pickled ginger, and spicy mayo if desired on the side.
 
-feel free to customize your sushi bowl with additional toppings or substitute ingredients based on your dietary preferences or what you have available. sushi bowls are versatile, so it's easy to get creative with your combinations!"|212.8|0.0|3.0|40.0|none|baked|grain-based|20.0|Japanese|1.0|might, sushi, followed
+feel free to customize your sushi bowl with additional toppings or substitute ingredients based on your dietary preferences or what you have available. sushi bowls are versatile, so it's easy to get creative with your combinations!"|212.8|0.0|3.0|40.0||baked|grain-based|20.0|Japanese|1.0|might, sushi, followed
 6155|Teriyaki Chicken Stir|"2. Teriyaki Chicken Stir-Fry
    Calories: 350 per portion
    Portions: 2
@@ -2612,8 +2552,8 @@ feel free to customize your sushi bowl with additional toppings or substitute in
 
 8. **serve the teriyaki chicken stir-fry** over a bed of steamed rice or noodles if desired, and enjoy your meal!
 
-note: always taste your teriyaki sauce and adjust the seasoning if needed. some people might like it sweeter, in which case you can add more honey, or saltier, in which case a little more soy sauce can be added."|63.0|30.0|9.0|4.57|neutral|baked|grain-based|30.0|The cuisine type of this recipe is Japanese.|1.0|chicken, breast, thigh, piece, salt, pepper, season, chicken, vegetable, broccoli, head, floret, red, bell, pepper, yellow, bell, pepper, onion, clove, garlic, minced, fresh, ginger, minced, sesame, seed, garnish, green, onion, garnish, teriyaki, sauce, soy, sauce, water, brown, sugar, honey, taste, sesame, cornstarch, water, cornstarch, slurry
-6203| **Congee (Breakfast)**|"1. **Congee (Breakfast)**
+note: always taste your teriyaki sauce and adjust the seasoning if needed. some people might like it sweeter, in which case you can add more honey, or saltier, in which case a little more soy sauce can be added."|63.0|30.0|9.0|4.57||baked|grain-based|30.0|The cuisine type of this recipe is Japanese.|1.0|chicken, breast, thigh, piece, salt, pepper, season, chicken, vegetable, broccoli, head, floret, red, bell, pepper, yellow, bell, pepper, onion, clove, garlic, minced, fresh, ginger, minced, sesame, seed, garnish, green, onion, garnish, teriyaki, sauce, soy, sauce, water, brown, sugar, honey, taste, sesame, cornstarch, water, cornstarch, slurry
+6203|Congee (Breakfast)|"1. **Congee (Breakfast)**
    Ingredients: Rice, water, ginger, optional toppings (meat, vegetables, etc.)
    Meal: Breakfast
 
@@ -2633,7 +2573,7 @@ Protein: Approximately 1-2g
 Fat: Approximately 0.2-0.5g
 Fiber: Approximately 0.5-1g
 Calories: Approximately 100-120 calories
-Please note that the exact nutritional content can vary depending on the type of rice used and the specific toppings you add. The values provided are approximate and can be adjusted based on your recipe and preferences."|Grain-based|120.0|NotAllergens|food_7008|"Ingredients: Rice, water, ginger, optional toppings (meat, vegetables, etc.)
+Please note that the exact nutritional content can vary depending on the type of rice used and the specific toppings you add. The values provided are approximate and can be adjusted based on your recipe and preferences."|grain-based|120.0|NotAllergens|food_7008|"Ingredients: Rice, water, ginger, optional toppings (meat, vegetables, etc.)
    Meal: Breakfast
 
 Preparation"|"Preparation Steps:
@@ -2645,8 +2585,8 @@ Reduce the heat to low and simmer the rice, stirring occasionally, for about 45 
 Grate or slice about 1 tablespoon of fresh ginger and add it to the congee, or adjust the amount to taste.
 Optional: You can add toppings like meat (chicken, pork, or seafood) or vegetables (green onions, cilantro, etc.) as desired.
 Continue to simmer for an additional 10-15 minutes if you've added toppings.
-Nutritional"|25.0|0.5|1.0|25.0|neutral|slow-cooked|breakfast|135.0|Steaming|2.0|rice, water, ginger, topping, meat, vegetable
-6273| Arepas (Venezuela)|"2. Arepas (Venezuela)
+Nutritional"|25.0|0.5|1.0|25.0||slow-cooked|breakfast|135.0|Steaming|2.0|rice, water, ginger, topping, meat, vegetable
+6273|Arepas (Venezuela)|"2. Arepas (Venezuela)
 Ingredients:
 - 2 cups pre-cooked cornmeal
 - 2 cups warm water
@@ -2666,7 +2606,7 @@ Fat: 1g
 Fiber: 4g
 Calories: 130
 
-Appropriate for: Breakfast, lunch, or dinner"|Vegetarian|130.0|NotAllergens|food_7082|"Ingredients:
+Appropriate for: Breakfast, lunch, or dinner"|vegetarian|130.0|NotAllergens|food_7082|"Ingredients:
 - 2 cups pre-cooked cornmeal
 - 2 cups warm water
 - Pinch of salt
@@ -2685,15 +2625,15 @@ Fat: 1g
 Fiber: 4g
 Calories: 130
 
-"|25.0|1.0|4.0|3.0|none|sauteed|breakfast;lunch;dinner|10.0|Venezuelan|2.0|cornmeal, water, pinch, salt, filling, shredded, chicken, black, bean, avocado, cheese
-6363| Empanadas (Various South American Countries)|"5. Empanadas (Various South American Countries)
+"|25.0|1.0|4.0|3.0||sauteed|breakfast;lunch;dinner|10.0|Venezuelan|2.0|cornmeal, water, pinch, salt, filling, shredded, chicken, black, bean, avocado, cheese
+6363|Empanadas (Various South American Countries)|"5. Empanadas (Various South American Countries)
 - Ingredients: Dough (flour, water, salt, butter), filling of your choice (e.g., beef, chicken, cheese, vegetables)
 - Preparation: Prepare dough. Fill with desired filling. Bake or fry until golden brown.
 - Nutritional Information: Carbohydrates 30g, Protein 8g, Fat 15g, Fiber 2g, Calories 250 (per 100g portion, baked)
-- Appropriate for: Lunch or dinner."|Meat-based|250.0|NotAllergens|food_7177|"Ingredients: Dough (flour, water, salt, butter), filling of your choice (e.g., beef, chicken, cheese, vegetables)
+- Appropriate for: Lunch or dinner."|meat-based|250.0|NotAllergens|food_7177|"Ingredients: Dough (flour, water, salt, butter), filling of your choice (e.g., beef, chicken, cheese, vegetables)
 - Preparation"|"Preparation: Prepare dough. Fill with desired filling. Bake or fry until golden brown.
-- Nutritional"|30.0|15.0|2.0|8.0|neutral|baked|lunch;dinner|30.0|Latin|2.0|dough, flour, water, salt, butter, filling, beef, chicken, cheese, vegetable
-6402| Pan de Coco (Honduras)|"5. Pan de Coco (Honduras)
+- Nutritional"|30.0|15.0|2.0|8.0||baked|lunch;dinner|30.0|Latin|2.0|dough, flour, water, salt, butter, filling, beef, chicken, cheese, vegetable
+6402|Pan de Coco (Honduras)|"5. Pan de Coco (Honduras)
 Ingredients:
 - 3.5 cups of all-purpose flour
 - 1 cup of coconut milk
@@ -2721,7 +2661,7 @@ Appropriate for: Breakfast or as a snack
 
 Due to the constraints of this format, I have provided the first five recipes with an overview of the ingredients, preparation steps, and estimated nutritional values.
 
-Do note that the actual nutritional content will vary based on the specific ingredients used, how they are processed, and portion sizes. For precise macronutrient calculations, each recipe would need to be analyzed with accurate measurements and a comprehensive nutritional database or software. For purposes such as meal planning or for those following strict dietary guidelines, it is recommended to consult a registered dietitian or use reliable nutritional calculation tools."|vegetarian|350.0|milk;egg|food_7223|"Ingredients:
+Do note that the actual nutritional content will vary based on the specific ingredients used, how they are processed, and portion sizes. For precise macronutrient calculations, each recipe would need to be analyzed with accurate measurements and a comprehensive nutritional database or software. For purposes such as meal planning or for those following strict dietary guidelines, it is recommended to consult a registered dietitian or use reliable nutritional calculation tools."|vegetarian|350.0|lactose, eggs|food_7223|"Ingredients:
 - 3.5 cups of all-purpose flour
 - 1 cup of coconut milk
 - 1/2 cup of sugar
@@ -2748,14 +2688,14 @@ Appropriate for: Breakfast or as a snack
 
 Due to the constraints of this format, I have provided the first five recipes with an overview of the ingredients, preparation steps, and estimated nutritional values.
 
-"|55.0|12.0|2.0|8.0|sugar|baked|breakfast|30.0|Honduran|2.0|flour, coconut, milk, sugar, butter, salt, yeast, egg
-6429| Pollo Guisado (Guatemala) - Lunch/Dinner|"12. Pollo Guisado (Guatemala) - Lunch/Dinner
+"|55.0|12.0|2.0|8.0||baked|breakfast|30.0|Honduran|2.0|flour, coconut, milk, sugar, butter, salt, yeast, egg
+6429|Pollo Guisado (Guatemala)|"12. Pollo Guisado (Guatemala) - Lunch/Dinner
 - Ingredients: Chicken pieces, tomatoes, bell peppers, onions, garlic, cilantro, vegetable oil.
 - Preparation: Brown chicken, add diced vegetables, cover with water, and stew until chicken is cooked and sauce is thickened.
-- Nutritional Estimate/100g: Carbs: 5g, Protein: 13g, Fat: 8g, Fiber: 1g, Calories: 150."|Meat-based|150.0|NotAllergens|food_7251|"Ingredients: Chicken pieces, tomatoes, bell peppers, onions, garlic, cilantro, vegetable oil.
+- Nutritional Estimate/100g: Carbs: 5g, Protein: 13g, Fat: 8g, Fiber: 1g, Calories: 150."|meat-based|150.0|NotAllergens|food_7251|"Ingredients: Chicken pieces, tomatoes, bell peppers, onions, garlic, cilantro, vegetable oil.
 - Preparation"|"Preparation: Brown chicken, add diced vegetables, cover with water, and stew until chicken is cooked and sauce is thickened.
-- Nutritional"|5.0|8.0|1.0|13.0|sauté|stewed|lunch;dinner|30.0|Guatemalan|2.0|chicken, piece, tomato, bell, pepper, onion, garlic, cilantro, vegetable
-6441| Recipe: Argentinean Empanadas|"2. Recipe: Argentinean Empanadas
+- Nutritional"|5.0|8.0|1.0|13.0||slow-cooked|lunch;dinner|30.0|Guatemalan|2.0|chicken, piece, tomato, bell, pepper, onion, garlic, cilantro, vegetable
+6441|Recipe: Argentinean Empanadas|"2. Recipe: Argentinean Empanadas
 Ingredients:
 For the dough:
 - 500g all-purpose flour
@@ -2785,7 +2725,7 @@ Preparation:
 8. Serve hot or at room temperature.
 
 Nutritional Information (per 100g): Carbohydrates: 29g, Protein: 7g, Fat: 12g, Fiber: 3g, Calories: 260
-Appropriate for: Lunch or Dinner"|meat-based|260.0|egg|food_7270|"Ingredients:
+Appropriate for: Lunch or Dinner"|meat-based|260.0|eggs|food_7270|"Ingredients:
 For the dough:
 - 500g all-purpose flour
 - 150g unsalted butter, cold and diced
@@ -2813,8 +2753,8 @@ Preparation"|"Preparation:
 7. Preheat the oven to 375°F (190°C). Place the empanadas on a baking sheet lined with parchment paper and bake for 20-25 minutes until golden brown.
 8. Serve hot or at room temperature.
 
-"|29.0|12.0|3.0|7.0|There is no key taste profile indicated in the recipe.|Baked|lunch;dinner|60.0|Argentinean|2.0|dough, flour, unsalted, butter, salt, water, filling, ground, beef, onion, red, bell, pepper, clove, garlic, minced, ground, cumin, paprika, salt, pepper, taste, boiled, egg, green, olive, pitted
-6473| Tacu Tacu (Peruvian Mixed Rice and Beans)|"8. Tacu Tacu (Peruvian Mixed Rice and Beans)
+"|29.0|12.0|3.0|7.0||baked|lunch;dinner|60.0|Argentinean|2.0|dough, flour, unsalted, butter, salt, water, filling, ground, beef, onion, red, bell, pepper, clove, garlic, minced, ground, cumin, paprika, salt, pepper, taste, boiled, egg, green, olive, pitted
+6473|Tacu Tacu (Peruvian Mixed Rice and Beans)|"8. Tacu Tacu (Peruvian Mixed Rice and Beans)
 Ingredients:
 - 1 cup cooked rice
 - 1 cup cooked beans (such as red or black)
@@ -2840,7 +2780,7 @@ Protein: 10g
 Fat: 8g
 Fiber: 6g
 Calories: 250 kcal
-Appropriate for: Breakfast, lunch, or dinner"|vegetarian|250.0|egg|food_7304|"Ingredients:
+Appropriate for: Breakfast, lunch, or dinner"|vegetarian|250.0|eggs|food_7304|"Ingredients:
 - 1 cup cooked rice
 - 1 cup cooked beans (such as red or black)
 - 1 onion, finely chopped
@@ -2860,7 +2800,7 @@ Preparation"|"Preparation:
 5. Season with salt and pepper to taste.
 6. Serve the tacu tacu topped with a fried egg and sliced avocado.
 
-"|30.0|8.0|6.0|10.0|spicy|sauteed|breakfast;lunch;dinner|30.0|Peruvian|2.0|rice, bean, red, black, onion, clove, garlic, minced, vegetable, aji, amarillo, paste, peruvian, yellow, chili, paste, cumin, salt, pepper, taste, egg, avocado
+"|30.0|8.0|6.0|10.0||sauteed|breakfast;lunch;dinner|30.0|Peruvian|2.0|rice, bean, red, black, onion, clove, garlic, minced, vegetable, aji, amarillo, paste, peruvian, yellow, chili, paste, cumin, salt, pepper, taste, egg, avocado
 6674|Asparagus And Morel Risotto|"Asparagus And Morel Risotto3 1/2 cups chicken stock 
   1/4 cup olive oil 
   or more to taste 
@@ -2925,7 +2865,7 @@ Preparation"|"Preparation:
   about 3 minutes more. 
   Remove rice from the heat. Stir in remaining 2 tablespoons butter 
   Parmigiano-Reggiano cheese 
-  and parsley. Season with salt and black pepper. Garnish with balsamic vinegar and additional olive oil before serving."|179.0|238.0|117.0|34.0|Spicy|Sauteed|Meat-based|40.0|Italian|2.0|chicken, stock, olive, taste, unsalted, butter, asparagus, piece, bias, fresh, morel, mushroom, halved, shallot, minced, arborio, rice, white, wine, fresh, thyme, leaf, freshly, parmigiano, reggiano, cheese, taste, fresh, parsley, salt, ground, black, pepper, taste, high, balsamic, vinegar
+  and parsley. Season with salt and black pepper. Garnish with balsamic vinegar and additional olive oil before serving."|179.0|238.0|117.0|34.0||sauteed|Meat-based|40.0|Italian|2.0|chicken, stock, olive, taste, unsalted, butter, asparagus, piece, bias, fresh, morel, mushroom, halved, shallot, minced, arborio, rice, white, wine, fresh, thyme, leaf, freshly, parmigiano, reggiano, cheese, taste, fresh, parsley, salt, ground, black, pepper, taste, high, balsamic, vinegar
 6706|Almost-Instant Tomato Soup|"Almost-Instant Tomato Soup1 (16 ounce) can tomato sauce 
   1 1/2 cups cold filtered water 
   2 tablespoons tomato ketchup 
@@ -2956,7 +2896,7 @@ Preparation"|"Preparation:
   REDUCE heat to medium-low. 
   SIMMER for 15 minutes 
   stirring occasionally. 
-  SERVE and enjoy."|99.0|11.1|7.2|153.4|Spicy|Sauteed|Meat-based|30.0|Italian|2.0|tomato, sauce, filtered, water, tomato, ketchup, ranch, cornstarch, sugar, allspice, dried, basil, dill, weed, nutmeg, worcestershire, sauce
+  SERVE and enjoy."|99.0|11.1|7.2|153.4||sauteed|Meat-based|30.0|Italian|2.0|tomato, sauce, filtered, water, tomato, ketchup, ranch, cornstarch, sugar, allspice, dried, basil, dill, weed, nutmeg, worcestershire, sauce
 6801|Curried Lentil And Squash Soup|"Curried Lentil And Squash Soup1 tbsp olive oil 
   1 None onion 
   finely chopped 
@@ -3007,7 +2947,7 @@ Preparation"|"Preparation:
   for 15-20 mins 
   stirring occasionally 
   until squash is tender. 
-  Serve soup topped with yogurt and cilantro."|190.0|41.0|3.1|294.0|1. Spicy|Sauteed|Vegetarian|30.0|Pastry|2.0|olive, onion, clove, garlic, minced, madras, curry, powder, vegetable, stock, butternut, deseeded, red, lentil, plain, yogurt, fresh, cilantro, leaf
+  Serve soup topped with yogurt and cilantro."|190.0|41.0|3.1|294.0||sauteed|Vegetarian|30.0|Pastry|2.0|olive, onion, clove, garlic, minced, madras, curry, powder, vegetable, stock, butternut, deseeded, red, lentil, plain, yogurt, fresh, cilantro, leaf
 6889|Quick Collards|"Quick Collards2 bacon slices 
   chopped 
   5 1/2 cups thinly sliced trimmed collard greens (about 7 leaves) 
@@ -3025,7 +2965,7 @@ Preparation"|"Preparation:
   and USDA's MyPlate to give anyone looking for healthier options access to a trove of recipes that will help them create healthy 
   tasty plates. For more information about creating a healthy plate 
   visit 
-  ."|Meat-based|145.0|NotAllergens|food_7722|"2 bacon slices 
+  ."|meat-based|145.0|NotAllergens|food_7722|"2 bacon slices 
   chopped 
   5 1/2 cups thinly sliced trimmed collard greens (about 7 leaves) 
   2 tablespoons water 
@@ -3042,7 +2982,7 @@ Preparation"|"Preparation:
   and USDA's MyPlate to give anyone looking for healthier options access to a trove of recipes that will help them create healthy 
   tasty plates. For more information about creating a healthy plate 
   visit 
-  ."|15.0|18.0|7.0|107.0|Neutral|Baked|Meat-based|20.0|Spinach and Onion|1.0|bacon, thinly, collard, green, leaf, water, kosher, salt, hot, sauce
+  ."|15.0|18.0|7.0|107.0||baked|Meat-based|20.0|Spinach and Onion|1.0|bacon, thinly, collard, green, leaf, water, kosher, salt, hot, sauce
 6907|Healthy And Delicious: Pasta E Ceci Recipe|"Healthy And Delicious: Pasta E Ceci Recipe4 fresh thyme sprigs 
   1 large fresh rosemary spring 
   1 bay leaf 
@@ -3079,7 +3019,7 @@ Preparation"|"Preparation:
   and bring the liquid back to a boil. Boil gently until the pasta is tender but still firm to the bite 
   about 8 minutes. Puree the reserved bean mixture until smooth 
   then stir the puree into the boiling soup. Season with salt and freshly ground black pepper. 
-  Ladle the soup into bowls. Sprinkle each serving with some Parmesan and drizzle with extra-virgin olive oil."|Vegetarian|1830.0|NotAllergens|food_7740|"4 fresh thyme sprigs 
+  Ladle the soup into bowls. Sprinkle each serving with some Parmesan and drizzle with extra-virgin olive oil."|vegetarian|1830.0|NotAllergens|food_7740|"4 fresh thyme sprigs 
   1 large fresh rosemary spring 
   1 bay leaf 
   1 tablespoon olive oil 
@@ -3115,7 +3055,7 @@ Preparation"|"Preparation:
   and bring the liquid back to a boil. Boil gently until the pasta is tender but still firm to the bite 
   about 8 minutes. Puree the reserved bean mixture until smooth 
   then stir the puree into the boiling soup. Season with salt and freshly ground black pepper. 
-  Ladle the soup into bowls. Sprinkle each serving with some Parmesan and drizzle with extra-virgin olive oil."|279.0|78.0|13.0|200.0|Neutral|Fried|Meat-based|10.0|Italian|2.0|fresh, thyme, sprig, fresh, rosemary, spring, leaf, olive, unsalted, butter, onion, onion, ounce, pancetta, garlic, clove, minced, sodium, chicken, broth, can, garbanzo, bean, tomato, ditalini, tubular, pasta, salt, freshly, ground, black, pepper, freshly, parmesan, garnish, virgin, olive, drizzling
+  Ladle the soup into bowls. Sprinkle each serving with some Parmesan and drizzle with extra-virgin olive oil."|279.0|78.0|13.0|200.0||fried|Meat-based|10.0|Italian|2.0|fresh, thyme, sprig, fresh, rosemary, spring, leaf, olive, unsalted, butter, onion, onion, ounce, pancetta, garlic, clove, minced, sodium, chicken, broth, can, garbanzo, bean, tomato, ditalini, tubular, pasta, salt, freshly, ground, black, pepper, freshly, parmesan, garnish, virgin, olive, drizzling
 6955|Blueberry `N Spice Bread Pudding Recipe|"Blueberry `N Spice Bread Pudding Recipe12 slices white bread 
   cut into cubes (about 6 c.) 
   2 c. fresh or possibly dry pack frzn blueberries 
@@ -3141,7 +3081,7 @@ Preparation"|"Preparation:
   Serve hot or possibly chilled. 
   Garnish as desired. 
   Makes 8-10 servings. 
-  Chill leftovers."|vegetarian|2932.0|Milk|food_7788|"12 slices white bread 
+  Chill leftovers."|vegetarian|2932.0|lactose|food_7788|"12 slices white bread 
   cut into cubes (about 6 c.) 
   2 c. fresh or possibly dry pack frzn blueberries 
   rinsed & liquid removed 
@@ -3166,4 +3106,4 @@ Preparation"|"Preparation:
   Serve hot or possibly chilled. 
   Garnish as desired. 
   Makes 8-10 servings. 
-  Chill leftovers."|505.0|72.0|16.6|159.0|fresh|Cold|Vegetarian|45.0|French|2.0|white, bread, cube, fresh, possibly, pack, frzn, blueberry, liquid, egg, sweetened, condensed, lowfat, milk, evaporated, lowfat, milk, hot, water, butter, vanilla, extract, grnd, cinnamon, grnd, nutmeg
+  Chill leftovers."|505.0|72.0|16.6|159.0||refrigerated|Vegetarian|45.0|French|2.0|white, bread, cube, fresh, possibly, pack, frzn, blueberry, liquid, egg, sweetened, condensed, lowfat, milk, evaporated, lowfat, milk, hot, water, butter, vanilla, extract, grnd, cinnamon, grnd, nutmeg
