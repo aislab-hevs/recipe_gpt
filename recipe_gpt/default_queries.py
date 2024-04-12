@@ -90,12 +90,15 @@ query_templates_dict = {
         grain-based, etc. Please answer with only one word.  
         Recipe title: {rec_title} with ingredients: {ingredients_list}
         """,
-        "nutrition_plan": """Please give me {number} different food recipes for {type_food} between 
-            {low_calories} kcals and {high_calories} kcals per portion. For each recipe, 
-            give me the total amount of calories per portion, total portions, allergic warnings, 
-            and origin country if available.
-            {cultural_restrictions}
+        "nutrition_plan": """Please give me {number} different {cultural_restrictions} food 
+        recipes for {type_food} between {low_calories} kcals and {high_calories} kcals 
+        per portion. For each recipe, give me the total amount of calories per portion, 
+        total portions, allergic warnings, ingredients and preparation steps, and origin 
+        country if available.. For each one. 
         """,
-        "meal_type":"""Please classify the following recipe into one of the following categories plant-based, fruit-based, grain-based, meat-based, seafood-based, dessert, beverage: {rec_title} which contains the following ingredients: {ingredients_list}. Only answer with one of the categories that one more general apply. 
+        "meal_type":"""Please classify the following recipe into one of the following categories 
+        plant-based, fruit-based, grain-based, meat-based, seafood-based, dessert, 
+        beverage: {rec_title} which contains the following ingredients: {ingredients_list}. 
+        Only answer with one of the categories that one more general apply. 
         """
 }

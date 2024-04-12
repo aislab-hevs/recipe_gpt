@@ -9,8 +9,9 @@ REQUIREMENTS = [
 'pandas ',
 'python-dotenv',
 'seaborn',
-'skickit-learn',
+'scikit-learn',
 'spacy',
+'owlready2',
 'nltk'
 ]
 

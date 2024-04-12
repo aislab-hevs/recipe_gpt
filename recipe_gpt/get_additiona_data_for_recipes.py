@@ -49,10 +49,6 @@ def get_recipe_additional_information_from_dataframe(
     api_key = os.getenv("API_KEY")
     # create GPT handler object 
     gpt_handler = GPTInteractionManager(api_key=api_key, timeout=timeout)
-    # create a list of ingredients
-    ingredients_list = recipe_df[ingredients_col].tolist()
-    # create a list of titles
-    title_list = recipe_df[title_colum].tolist()
     fail_recipes = []
     processed_recipes = {}
     sub_df = recipe_df.loc[:, [title_colum, ingredients_col]]
