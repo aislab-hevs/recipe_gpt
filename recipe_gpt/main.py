@@ -69,3 +69,4 @@ if __name__ == '__main__':
     
     with open(file_target, 'w', encoding='utf-8') as f: 
         json.dump(choices, f, ensure_ascii=False)
+        
