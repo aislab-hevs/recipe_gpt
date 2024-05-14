@@ -66,13 +66,27 @@ def remove_punctuation(text: str,punct_list: List[str]) -> str:
             text = text.replace(punc, '')
     return text.strip()
 
-def get_files(file_pattern: str):
+def get_files(file_pattern: str) -> List[str]:
+    """Get the list of files that match the given pattern. 
+
+    :param file_pattern: file pattern to search. 
+    :type file_pattern: str
+    :return: List of files that match the given pattern. 
+    :rtype: List[str]
+    """
     list_files = glob.glob(file_pattern)
     filtered_files = [f for f in list_files if 'failed' not in f]
     print(f"Found files number: {len(filtered_files)}")
     return filtered_files
 
 def load_files(list_files:List[str]) -> Dict[str, str]:
+    """Load raw files json into dictionary. 
+
+    :param list_files: List of files path to load.
+    :type list_files: List[str]
+    :return: Dictionary 
+    :rtype: Dict[str, str]
+    """
     answer_dict = {}
     for f in list_files:
         with open(f) as json_file:
@@ -82,6 +96,15 @@ def load_files(list_files:List[str]) -> Dict[str, str]:
     return answer_dict
 
 def replace_by_key(text: str, replace_dict: Dict[str, List[str]]) -> str:
+    """Replace words  in text using key-value pairs in replace_dict. 
+
+    :param text: Text to be processed. 
+    :type text: str
+    :param replace_dict: Dictionary with words to be replaced.
+    :type replace_dict: Dict[str, List[str]]
+    :return: Processed text with words replaced. 
+    :rtype: str
+    """
     # preprocess text 
     lower_text = text.lower()
     # remove punctuation 
@@ -101,16 +124,61 @@ def replace_by_key(text: str, replace_dict: Dict[str, List[str]]) -> str:
 
 
 def check_pattern(text: str, pattern: str)-> bool:
+    """Check if the string text matches the given pattern.
+
+    :param text: Text to be checked. 
+    :type text: str
+    :param pattern: Pattern to check.
+    :type pattern: str
+    :return: Boolean value. True if the string matches the given pattern
+    :rtype: bool
+    """
     return re.search(pattern, text) is not None
     
 def remove_pattern(text:str, pattern: str)->str:
+    """Remove a pattern from text string.
+
+    :param text: Text string to remove pattern form. 
+    :type text: str
+    :param pattern: Regular expression pattern to remove from text string. 
+    :type pattern: str
+    :return: Text without the pattern. 
+    :rtype: str
+    """
     answer = re.sub(pattern, '', text)
     return answer.strip()
     
 def extract_pattern(text: str, pattern: str)->str:
+    """Extracts a pattern from a text string.
+
+    :param text: String to extract pattern from. 
+    :type text: str
+    :param pattern: Regular expression to extract pattern from text.
+    :type pattern: str
+    :return: Extracted pattern. 
+    :rtype: str
+    """
     match = re.search(pattern, text)
     #print(f'match {match}')
     if match is not None:
         return match.group(1)
     else:
         return text
+    
+def process_price(text: str) -> float:
+    """Process text with price information. 
+
+    :param text: text to process
+    :type text: str
+    :return: Price number or NaN if text is not a valid price.
+    :rtype: float
+    """
+    if type(text) == float:
+        return text
+    else:
+        # extract number 
+        found_text = re.findall(r'\d+\.*\d*', text)
+        if len(found_text) == 0:
+            return np.nan
+        # replace $ and,
+        return float(found_text[0])
