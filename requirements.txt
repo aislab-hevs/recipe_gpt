@@ -2,6 +2,8 @@ openai
 numpy
 pandas
 python-dotenv
+matplotlib
 seaborn 
 scikit-learn
 owlready2
+nltk

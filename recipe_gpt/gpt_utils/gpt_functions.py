@@ -4,19 +4,19 @@ import httpx
 
 
 class GPTInteractionManager(object):
-    """_summary_
+    """This class manages the connection with OpenAI API.
 
-    :param object: _description_
-    :type object: _type_
+    :param object: General python object.
+    :type object: object
     """
     def __init__(self, 
                  api_key: str,
                  max_retries: int=0, 
                  timeout: Union[float, httpx.Timeout] = 120.0
                  ) -> None:
-        """_summary_
+        """Initializes the connection with OpenAI services. 
 
-        :param api_key: _description_
+        :param api_key: API key for access OpenAI 
         :type api_key: str
         :param max_retries: _description_, defaults to 0
         :type max_retries: int, optional

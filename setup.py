@@ -6,11 +6,13 @@ with open("README.md", "r") as fh:
 # Requirements for installing the package
 REQUIREMENTS = [
 'openai',
-'pandas ',
+'numpy',
+'pandas',
 'python-dotenv',
-'seaborn',
-'skickit-learn',
-'spacy',
+'matplotlib',
+'seaborn', 
+'scikit-learn',
+'owlready2',
 'nltk'
 ]
 
