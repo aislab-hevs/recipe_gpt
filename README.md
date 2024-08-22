@@ -70,7 +70,7 @@ py -m build
 The wheel installer will be appear in the dist subdirectory. Localize in the dist subdirectory execute the following command:
 
 ```
-pip install dexire-0.0.1-py3-none-any.whl
+pip install recipe_gpt-0.0.1-py3-none-any.whl
 ```
 
 The wheel installer (.whl file) cna be distributed to install in other environments.
@@ -82,7 +82,7 @@ This repository provide a database with 7000 recipes in csv format to load and u
 1. The recipes file is located inside `output` folder located at the root repository directory and with the following relative path:
 
     ```bash
-    output/final_recipes/recipes_dataset_final.csv
+    output/final_recipes/df_recipes.csv
     ```
 
 2. The database can be loaded using pandas or other csv related libraries. Given that the database contains multiline text in ingredients and preparations columns the separator character is `|` so should be used to correctly load the recipes. An example of loading this database in Pyhton using Pandas library is shown bellow:
@@ -123,10 +123,6 @@ The recipe dataset is conformed for the following columns described in table bel
 | raw_text             | The original text extracted from query to OpenAI's GPT models                                                                                             | Multiline-text       |
 |                      |                                                                                                                                                           |                      |
 
-
-## Using RecipeGPT to get recipe ideas
-
-#TODO: Add documentation to this section 
 
 ## Using RecipeGPT to complete recipe information
 
