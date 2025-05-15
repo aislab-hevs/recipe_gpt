@@ -121,7 +121,7 @@ The recipe dataset is conformed for the following columns described in table bel
 | cuisine              | Describes the recipe cuisine type.                                                                                                                        | String categorical   |
 | price                | This column describes the estimated cost of the recipe employing an integer value between 1 and 3 where 1 means cheap recipe to 3 which means expensive.  | Integer, categorical |
 | raw_text             | The original text extracted from query to OpenAI's GPT models                                                                                             | Multiline-text       |
-|                      |                                                                                                                                                           |                      |
+|     thumbnail                 |    URL with recipe thumbnail.  |     URL                 |
 
 
 ## Using RecipeGPT to complete recipe information
